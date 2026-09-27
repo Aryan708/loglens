@@ -1,0 +1,244 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  LogLens: a serverless log analysis platform. The browser uploads a log to S3
+  through a presigned URL, S3 events start a Step Functions pipeline (Lambda
+  parse -> Lambda anomaly detection -> DynamoDB), and a REST API serves results.
+
+Parameters:
+  AllowedOrigin:
+    Type: String
+    Default: '*'
+    Description: Front-end origin allowed by CORS, for example https://<user>.github.io
+  RetentionDays:
+    Type: Number
+    Default: 7
+    Description: Days to keep uploaded logs and results in S3 before automatic deletion
+
+Globals:
+  Function:
+    Runtime: nodejs22.x
+    Architectures: [arm64]
+    MemorySize: 256
+    Timeout: 10
+    Tracing: Active
+    LoggingConfig:
+      LogFormat: JSON
+    Environment:
+      Variables:
+        TABLE_NAME: !Ref JobsTable
+        BUCKET_NAME: !Ref LogsBucket
+        ALLOWED_ORIGIN: !Ref AllowedOrigin
+
+Resources:
+  # ---------- Storage ----------
+  LogsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      NotificationConfiguration:
+        EventBridgeConfiguration:
+          EventBridgeEnabled: true
+      CorsConfiguration:
+        CorsRules:
+          - AllowedMethods: [PUT, GET]
+            AllowedOrigins: [!Ref AllowedOrigin]
+            AllowedHeaders: ['*']
+            MaxAge: 3000
+      LifecycleConfiguration:
+        Rules:
+          - Id: ExpireOldObjects
+            Status: Enabled
+            ExpirationInDays: !Ref RetentionDays
+
+  JobsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: pk, AttributeType: S }
+        - { AttributeName: sk, AttributeType: S }
+        - { AttributeName: entity, AttributeType: S }
+        - { AttributeName: createdAt, AttributeType: S }
+      KeySchema:
+        - { AttributeName: pk, KeyType: HASH }
+        - { AttributeName: sk, KeyType: RANGE }
+      GlobalSecondaryIndexes:
+        - IndexName: ByEntity
+          KeySchema:
+            - { AttributeName: entity, KeyType: HASH }
+            - { AttributeName: createdAt, KeyType: RANGE }
+          Projection:
+            ProjectionType: ALL
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+
+  # ---------- REST API ----------
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins: [!Ref AllowedOrigin]
+        AllowMethods: [GET, POST, OPTIONS]
+        AllowHeaders: [Content-Type]
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 20
+
+  CreateUploadFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: backend/
+      Handler: createUpload.handler
+      Description: POST /uploads - create a job and return a presigned S3 upload URL
+      Policies:
+        - DynamoDBWritePolicy: { TableName: !Ref JobsTable }
+        - S3WritePolicy: { BucketName: !Ref LogsBucket }
+      Events:
+        Api:
+          Type: HttpApi
+          Properties: { ApiId: !Ref HttpApi, Path: /uploads, Method: POST }
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        Format: esm
+        Target: es2022
+        Sourcemap: true
+        OutExtension: ['.js=.mjs']
+        Banner: ["js=import { createRequire } from 'module'; const require = createRequire(import.meta.url);"]
+        EntryPoints: [src/handlers/createUpload.js]
+
+  GetJobFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: backend/
+      Handler: getJob.handler
+      Description: GET /jobs/{jobId} - job status plus a presigned results URL
+      Policies:
+        - DynamoDBReadPolicy: { TableName: !Ref JobsTable }
+        - S3ReadPolicy: { BucketName: !Ref LogsBucket }
+      Events:
+        Api:
+          Type: HttpApi
+          Properties: { ApiId: !Ref HttpApi, Path: '/jobs/{jobId}', Method: GET }
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        Format: esm
+        Target: es2022
+        Sourcemap: true
+        OutExtension: ['.js=.mjs']
+        Banner: ["js=import { createRequire } from 'module'; const require = createRequire(import.meta.url);"]
+        EntryPoints: [src/handlers/getJob.js]
+
+  ListJobsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: backend/
+      Handler: listJobs.handler
+      Description: GET /jobs - most recent jobs, newest first
+      Policies:
+        - DynamoDBReadPolicy: { TableName: !Ref JobsTable }
+      Events:
+        Api:
+          Type: HttpApi
+          Properties: { ApiId: !Ref HttpApi, Path: /jobs, Method: GET }
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        Format: esm
+        Target: es2022
+        Sourcemap: true
+        OutExtension: ['.js=.mjs']
+        Banner: ["js=import { createRequire } from 'module'; const require = createRequire(import.meta.url);"]
+        EntryPoints: [src/handlers/listJobs.js]
+
+  # ---------- Processing pipeline ----------
+  ParseLogFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: backend/
+      Handler: parseLog.handler
+      Description: Step 1 - parse the uploaded log and store full results in S3
+      MemorySize: 1024
+      Timeout: 120
+      Policies:
+        - S3CrudPolicy: { BucketName: !Ref LogsBucket }
+        - DynamoDBCrudPolicy: { TableName: !Ref JobsTable }
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        Format: esm
+        Target: es2022
+        Sourcemap: true
+        OutExtension: ['.js=.mjs']
+        Banner: ["js=import { createRequire } from 'module'; const require = createRequire(import.meta.url);"]
+        EntryPoints: [src/handlers/parseLog.js]
+
+  DetectAnomaliesFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: backend/
+      Handler: detectAnomalies.handler
+      Description: Step 2 - flag error spikes using z-scores
+      Environment:
+        Variables:
+          ANOMALY_Z_THRESHOLD: '2'
+    Metadata:
+      BuildMethod: esbuild
+      BuildProperties:
+        Format: esm
+        Target: es2022
+        Sourcemap: true
+        OutExtension: ['.js=.mjs']
+        Banner: ["js=import { createRequire } from 'module'; const require = createRequire(import.meta.url);"]
+        EntryPoints: [src/handlers/detectAnomalies.js]
+
+  LogPipelineStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionUri: backend/statemachine/logPipeline.asl.json
+      DefinitionSubstitutions:
+        ParseLogFunctionArn: !GetAtt ParseLogFunction.Arn
+        DetectAnomaliesFunctionArn: !GetAtt DetectAnomaliesFunction.Arn
+        JobsTableName: !Ref JobsTable
+      Tracing:
+        Enabled: true
+      Policies:
+        - LambdaInvokePolicy: { FunctionName: !Ref ParseLogFunction }
+        - LambdaInvokePolicy: { FunctionName: !Ref DetectAnomaliesFunction }
+        - DynamoDBWritePolicy: { TableName: !Ref JobsTable }
+      Events:
+        LogUploaded:
+          Type: EventBridgeRule
+          Properties:
+            Pattern:
+              source: [aws.s3]
+              detail-type: [Object Created]
+              detail:
+                bucket:
+                  name: [!Ref LogsBucket]
+                object:
+                  key: [{ prefix: uploads/ }]
+
+Outputs:
+  ApiUrl:
+    Description: Set this as VITE_API_URL in the front end
+    Value: !Sub https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com
+  LogsBucketName:
+    Value: !Ref LogsBucket
+  JobsTableName:
+    Value: !Ref JobsTable
+  StateMachineArn:
+    Value: !Ref LogPipelineStateMachine

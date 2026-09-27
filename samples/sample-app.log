@@ -1,0 +1,1305 @@
+2026-03-14 09:00:00,000 INFO [api-gateway] Order 30029 placed successfully
+2026-03-14 09:00:04,380 ERROR [cart-service] Timeout after 5000ms calling payment provider for order 99517
+2026-03-14 09:00:13,058 INFO [payment-service] Cache hit ratio 91%
+2026-03-14 09:00:14,874 DEBUG [search-service] Request context loaded in 5ms
+2026-03-14 09:00:23,879 INFO [auth-service] Search query completed in 33ms (188 results)
+2026-03-14 09:00:32,272 DEBUG [inventory-service] Request context loaded in 3ms
+2026-03-14 09:00:33,818 ERROR [payment-service] JWT validation failed: token expired
+2026-03-14 09:00:42,425 INFO [cart-service] Order 72675 placed successfully
+2026-03-14 09:00:49,827 INFO [search-service] Search query completed in 18ms (38 results)
+2026-03-14 09:00:54,853 WARN [inventory-service] Connection pool at 92% capacity
+2026-03-14 09:00:59,357 INFO [auth-service] GET /api/products/3501 200 80ms
+2026-03-14 09:01:08,302 INFO [auth-service] Cache hit ratio 91%
+2026-03-14 09:01:12,332 INFO [api-gateway] Cache hit ratio 82%
+2026-03-14 09:01:21,625 INFO [cart-service] Order 37599 placed successfully
+2026-03-14 09:01:23,692 INFO [api-gateway] User 64368 logged in
+2026-03-14 09:01:30,972 INFO [auth-service] User 72485 logged in
+2026-03-14 09:01:39,908 INFO [inventory-service] Health check passed
+2026-03-14 09:01:44,522 DEBUG [api-gateway] Request context loaded in 3ms
+2026-03-14 09:01:51,387 INFO [cart-service] Health check passed
+2026-03-14 09:01:56,259 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:02:06,067 INFO [auth-service] Added item 354 to cart 4409
+2026-03-14 09:02:14,635 INFO [auth-service] Added item 577 to cart 2376
+2026-03-14 09:02:19,269 ERROR [payment-service] Database connection refused: 10.0.3.33:5432
+2026-03-14 09:02:22,562 INFO [inventory-service] Search query completed in 64ms (46 results)
+2026-03-14 09:02:26,980 INFO [search-service] User 92874 logged in
+2026-03-14 09:02:36,529 INFO [search-service] GET /api/products/3296 200 117ms
+2026-03-14 09:02:42,048 INFO [search-service] Order 83448 placed successfully
+2026-03-14 09:02:45,827 INFO [inventory-service] GET /api/products/4053 200 102ms
+2026-03-14 09:02:53,724 INFO [api-gateway] Order 37291 placed successfully
+2026-03-14 09:03:00,529 INFO [cart-service] User 74900 logged in
+2026-03-14 09:03:06,083 ERROR [search-service] Failed to reserve stock for SKU 913698: insufficient quantity
+2026-03-14 09:03:13,730 INFO [search-service] Cache hit ratio 92%
+2026-03-14 09:03:21,793 WARN [payment-service] Connection pool at 83% capacity
+2026-03-14 09:03:29,518 ERROR [search-service] Database connection refused: 10.0.3.27:5432
+2026-03-14 09:03:35,695 INFO [api-gateway] Added item 630 to cart 625
+2026-03-14 09:03:37,959 WARN [auth-service] Retrying request to payment provider (attempt 2)
+2026-03-14 09:03:42,830 INFO [inventory-service] Order 42523 placed successfully
+2026-03-14 09:03:50,133 INFO [search-service] Cache hit ratio 91%
+2026-03-14 09:03:57,031 INFO [payment-service] User 23243 logged in
+2026-03-14 09:04:00,131 WARN [cart-service] Retrying request to payment provider (attempt 3)
+2026-03-14 09:04:06,927 INFO [auth-service] Order 48366 placed successfully
+2026-03-14 09:04:11,114 INFO [payment-service] Health check passed
+2026-03-14 09:04:18,274 INFO [inventory-service] Cache hit ratio 95%
+2026-03-14 09:04:27,202 DEBUG [payment-service] Request context loaded in 3ms
+2026-03-14 09:04:34,480 ERROR [cart-service] Timeout after 5000ms calling payment provider for order 30478
+2026-03-14 09:04:38,959 INFO [inventory-service] Order 20679 placed successfully
+2026-03-14 09:04:44,456 INFO [search-service] User 23815 logged in
+2026-03-14 09:04:52,804 INFO [inventory-service] GET /api/products/3014 200 161ms
+2026-03-14 09:05:01,628 INFO [search-service] GET /api/products/7117 200 187ms
+2026-03-14 09:05:08,223 INFO [search-service] Health check passed
+2026-03-14 09:05:16,035 INFO [inventory-service] User 54969 logged in
+2026-03-14 09:05:22,395 INFO [api-gateway] Added item 225 to cart 7142
+2026-03-14 09:05:29,561 INFO [auth-service] GET /api/products/8337 200 196ms
+2026-03-14 09:05:34,157 INFO [api-gateway] GET /api/products/8569 200 66ms
+2026-03-14 09:05:39,194 INFO [cart-service] Health check passed
+2026-03-14 09:05:42,854 INFO [search-service] Health check passed
+2026-03-14 09:05:44,302 INFO [auth-service] Added item 395 to cart 8290
+2026-03-14 09:05:52,542 INFO [api-gateway] Health check passed
+2026-03-14 09:05:57,472 INFO [api-gateway] Order 18233 placed successfully
+2026-03-14 09:06:05,094 INFO [auth-service] Cache hit ratio 93%
+2026-03-14 09:06:06,642 INFO [auth-service] User 76333 logged in
+2026-03-14 09:06:09,237 INFO [search-service] Health check passed
+2026-03-14 09:06:14,221 INFO [inventory-service] User 15571 logged in
+2026-03-14 09:06:19,808 INFO [search-service] User 44574 logged in
+2026-03-14 09:06:28,712 INFO [auth-service] Cache hit ratio 99%
+2026-03-14 09:06:35,672 INFO [search-service] Added item 285 to cart 6916
+2026-03-14 09:06:41,607 WARN [api-gateway] Connection pool at 93% capacity
+2026-03-14 09:06:48,403 INFO [cart-service] Health check passed
+2026-03-14 09:06:50,546 DEBUG [cart-service] Request context loaded in 3ms
+2026-03-14 09:06:53,999 INFO [api-gateway] GET /api/products/7868 200 83ms
+2026-03-14 09:06:59,244 INFO [inventory-service] Added item 589 to cart 7867
+2026-03-14 09:07:02,591 INFO [api-gateway] Search query completed in 28ms (94 results)
+2026-03-14 09:07:05,987 INFO [cart-service] Health check passed
+2026-03-14 09:07:15,943 INFO [inventory-service] User 45219 logged in
+2026-03-14 09:07:24,989 INFO [auth-service] Search query completed in 37ms (195 results)
+2026-03-14 09:07:29,084 WARN [inventory-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:07:38,994 INFO [payment-service] User 82871 logged in
+2026-03-14 09:07:43,614 INFO [search-service] Health check passed
+2026-03-14 09:07:50,755 INFO [payment-service] User 23466 logged in
+2026-03-14 09:07:52,207 INFO [auth-service] Health check passed
+2026-03-14 09:07:57,504 INFO [inventory-service] GET /api/products/1439 200 120ms
+2026-03-14 09:08:05,066 INFO [cart-service] Added item 993 to cart 2567
+2026-03-14 09:08:13,181 INFO [search-service] Added item 386 to cart 2585
+2026-03-14 09:08:22,053 INFO [auth-service] Order 43360 placed successfully
+2026-03-14 09:08:23,674 WARN [search-service] Connection pool at 86% capacity
+2026-03-14 09:08:32,808 INFO [search-service] GET /api/products/4791 200 108ms
+2026-03-14 09:08:35,522 INFO [auth-service] Cache hit ratio 86%
+2026-03-14 09:08:41,908 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:08:44,063 INFO [inventory-service] Order 46958 placed successfully
+2026-03-14 09:08:47,246 WARN [auth-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:08:52,139 DEBUG [api-gateway] Request context loaded in 3ms
+2026-03-14 09:08:58,272 INFO [api-gateway] Cache hit ratio 81%
+2026-03-14 09:09:08,055 INFO [search-service] Health check passed
+2026-03-14 09:09:11,317 INFO [api-gateway] Search query completed in 67ms (137 results)
+2026-03-14 09:09:16,450 INFO [payment-service] Order 91329 placed successfully
+2026-03-14 09:09:25,723 INFO [api-gateway] Search query completed in 87ms (176 results)
+2026-03-14 09:09:32,291 INFO [cart-service] Health check passed
+2026-03-14 09:09:40,577 INFO [inventory-service] Added item 507 to cart 6287
+2026-03-14 09:09:44,977 INFO [auth-service] Cache hit ratio 89%
+2026-03-14 09:09:49,066 INFO [cart-service] Search query completed in 96ms (72 results)
+2026-03-14 09:09:54,687 INFO [payment-service] Added item 550 to cart 1306
+2026-03-14 09:09:57,700 INFO [search-service] User 72027 logged in
+2026-03-14 09:10:06,715 INFO [cart-service] Order 46183 placed successfully
+2026-03-14 09:10:14,476 INFO [auth-service] Order 92157 placed successfully
+2026-03-14 09:10:15,542 INFO [api-gateway] Health check passed
+2026-03-14 09:10:17,683 INFO [search-service] User 86202 logged in
+2026-03-14 09:10:20,804 INFO [auth-service] GET /api/products/7521 200 102ms
+2026-03-14 09:10:25,862 DEBUG [search-service] Request context loaded in 1ms
+2026-03-14 09:10:29,835 INFO [search-service] Cache hit ratio 86%
+2026-03-14 09:10:38,663 INFO [payment-service] Cache hit ratio 99%
+2026-03-14 09:10:43,430 INFO [api-gateway] Search query completed in 33ms (167 results)
+2026-03-14 09:10:45,022 INFO [inventory-service] GET /api/products/6784 200 170ms
+2026-03-14 09:10:50,358 INFO [cart-service] Search query completed in 59ms (45 results)
+2026-03-14 09:10:59,677 INFO [auth-service] Cache hit ratio 95%
+2026-03-14 09:11:07,316 INFO [cart-service] Added item 804 to cart 2374
+2026-03-14 09:11:09,834 INFO [api-gateway] User 65821 logged in
+2026-03-14 09:11:15,616 INFO [search-service] GET /api/products/4003 200 46ms
+2026-03-14 09:11:20,740 INFO [payment-service] Health check passed
+2026-03-14 09:11:26,134 INFO [cart-service] Added item 764 to cart 3028
+2026-03-14 09:11:33,730 INFO [cart-service] Order 48097 placed successfully
+2026-03-14 09:11:42,743 INFO [payment-service] Search query completed in 12ms (34 results)
+2026-03-14 09:11:50,373 INFO [auth-service] User 38449 logged in
+2026-03-14 09:11:51,903 INFO [auth-service] User 89627 logged in
+2026-03-14 09:11:57,456 INFO [inventory-service] Cache hit ratio 91%
+2026-03-14 09:12:05,745 INFO [search-service] Order 97235 placed successfully
+2026-03-14 09:12:12,477 INFO [payment-service] Added item 565 to cart 3471
+2026-03-14 09:12:18,065 DEBUG [cart-service] Request context loaded in 4ms
+2026-03-14 09:12:21,940 INFO [search-service] User 66706 logged in
+2026-03-14 09:12:28,484 INFO [auth-service] Search query completed in 91ms (144 results)
+2026-03-14 09:12:38,141 INFO [auth-service] Search query completed in 24ms (59 results)
+2026-03-14 09:12:46,045 INFO [payment-service] Search query completed in 92ms (35 results)
+2026-03-14 09:12:54,292 ERROR [search-service] Database connection refused: 10.0.3.39:5432
+2026-03-14 09:12:59,657 INFO [cart-service] GET /api/products/2743 200 33ms
+2026-03-14 09:13:04,034 INFO [payment-service] Cache hit ratio 91%
+2026-03-14 09:13:06,507 INFO [api-gateway] Health check passed
+2026-03-14 09:13:13,801 DEBUG [search-service] Request context loaded in 5ms
+2026-03-14 09:13:20,236 INFO [cart-service] Added item 403 to cart 8608
+2026-03-14 09:13:23,824 INFO [search-service] GET /api/products/7595 200 20ms
+2026-03-14 09:13:32,342 INFO [payment-service] GET /api/products/7481 200 23ms
+2026-03-14 09:13:40,053 INFO [inventory-service] Added item 773 to cart 971
+2026-03-14 09:13:47,423 INFO [cart-service] User 20939 logged in
+2026-03-14 09:13:56,571 DEBUG [auth-service] Request context loaded in 4ms
+2026-03-14 09:14:05,148 INFO [inventory-service] Order 32749 placed successfully
+2026-03-14 09:14:13,218 INFO [search-service] Added item 200 to cart 2126
+2026-03-14 09:14:22,064 INFO [cart-service] Added item 129 to cart 8940
+2026-03-14 09:14:31,638 INFO [cart-service] Health check passed
+2026-03-14 09:14:36,064 INFO [auth-service] Added item 201 to cart 5908
+2026-03-14 09:14:38,356 INFO [payment-service] Order 38873 placed successfully
+2026-03-14 09:14:44,585 DEBUG [payment-service] Request context loaded in 5ms
+2026-03-14 09:14:51,803 DEBUG [inventory-service] Request context loaded in 1ms
+2026-03-14 09:14:59,170 INFO [search-service] Added item 200 to cart 8869
+2026-03-14 09:15:02,324 INFO [api-gateway] Cache hit ratio 81%
+2026-03-14 09:15:03,410 INFO [cart-service] Order 10201 placed successfully
+2026-03-14 09:15:13,385 INFO [search-service] Search query completed in 20ms (58 results)
+2026-03-14 09:15:15,500 WARN [search-service] Slow response from inventory DB: 2164ms
+2026-03-14 09:15:20,921 INFO [api-gateway] Cache hit ratio 95%
+2026-03-14 09:15:24,263 WARN [inventory-service] Connection pool at 94% capacity
+2026-03-14 09:15:26,091 ERROR [inventory-service] Database connection refused: 10.0.3.47:5432
+2026-03-14 09:15:29,370 DEBUG [cart-service] Request context loaded in 2ms
+2026-03-14 09:15:37,534 INFO [auth-service] Search query completed in 75ms (20 results)
+2026-03-14 09:15:43,032 INFO [api-gateway] Cache hit ratio 98%
+2026-03-14 09:15:52,106 INFO [payment-service] Search query completed in 48ms (97 results)
+2026-03-14 09:15:57,485 INFO [auth-service] Added item 302 to cart 2652
+2026-03-14 09:16:05,130 INFO [payment-service] User 20915 logged in
+2026-03-14 09:16:13,698 INFO [api-gateway] Added item 776 to cart 3074
+2026-03-14 09:16:19,033 INFO [payment-service] Added item 964 to cart 1820
+2026-03-14 09:16:20,457 WARN [cart-service] Retrying request to payment provider (attempt 2)
+2026-03-14 09:16:25,336 INFO [search-service] Cache hit ratio 81%
+2026-03-14 09:16:31,586 INFO [cart-service] Added item 510 to cart 4647
+2026-03-14 09:16:40,777 INFO [auth-service] Order 22879 placed successfully
+2026-03-14 09:16:42,132 INFO [payment-service] Order 40988 placed successfully
+2026-03-14 09:16:48,330 INFO [cart-service] Order 45964 placed successfully
+2026-03-14 09:16:50,239 INFO [inventory-service] GET /api/products/9673 200 176ms
+2026-03-14 09:16:59,054 INFO [auth-service] Order 21051 placed successfully
+2026-03-14 09:17:03,741 INFO [cart-service] Added item 446 to cart 4801
+2026-03-14 09:17:08,885 INFO [search-service] Order 47023 placed successfully
+2026-03-14 09:17:17,443 ERROR [api-gateway] Failed to reserve stock for SKU 297112: insufficient quantity
+2026-03-14 09:17:23,916 INFO [cart-service] Order 36269 placed successfully
+2026-03-14 09:17:30,416 WARN [auth-service] Retrying request to payment provider (attempt 2)
+2026-03-14 09:17:39,826 ERROR [inventory-service] Database connection refused: 10.0.3.23:5432
+2026-03-14 09:17:48,573 INFO [search-service] Cache hit ratio 80%
+2026-03-14 09:17:54,949 INFO [search-service] GET /api/products/3266 200 30ms
+2026-03-14 09:18:03,602 INFO [auth-service] Health check passed
+2026-03-14 09:18:08,981 INFO [api-gateway] Added item 420 to cart 3067
+2026-03-14 09:18:16,198 INFO [auth-service] Cache hit ratio 91%
+2026-03-14 09:18:24,780 INFO [cart-service] Search query completed in 18ms (153 results)
+2026-03-14 09:18:27,071 INFO [search-service] Search query completed in 54ms (36 results)
+2026-03-14 09:18:30,715 INFO [payment-service] Added item 908 to cart 5563
+2026-03-14 09:18:37,410 INFO [search-service] Health check passed
+2026-03-14 09:18:41,809 INFO [search-service] Search query completed in 99ms (45 results)
+2026-03-14 09:18:47,352 INFO [inventory-service] Cache hit ratio 84%
+2026-03-14 09:18:55,924 WARN [payment-service] Slow response from inventory DB: 1073ms
+2026-03-14 09:19:01,151 INFO [search-service] Added item 609 to cart 7359
+2026-03-14 09:19:09,621 DEBUG [payment-service] Request context loaded in 5ms
+2026-03-14 09:19:17,039 INFO [search-service] Added item 391 to cart 4302
+2026-03-14 09:19:19,479 INFO [api-gateway] Added item 676 to cart 1013
+2026-03-14 09:19:26,755 INFO [cart-service] Search query completed in 35ms (80 results)
+2026-03-14 09:19:29,607 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:19:39,421 INFO [auth-service] GET /api/products/9796 200 154ms
+2026-03-14 09:19:42,148 ERROR [payment-service] Failed to reserve stock for SKU 889924: insufficient quantity
+2026-03-14 09:19:47,976 INFO [payment-service] Search query completed in 75ms (162 results)
+2026-03-14 09:19:55,112 INFO [auth-service] User 21957 logged in
+2026-03-14 09:19:57,181 INFO [payment-service] Cache hit ratio 91%
+2026-03-14 09:19:59,184 INFO [inventory-service] Cache hit ratio 82%
+2026-03-14 09:20:04,259 INFO [inventory-service] Cache hit ratio 87%
+2026-03-14 09:20:12,398 WARN [search-service] Connection pool at 80% capacity
+2026-03-14 09:20:18,194 INFO [api-gateway] Order 25240 placed successfully
+2026-03-14 09:20:26,885 DEBUG [cart-service] Request context loaded in 3ms
+2026-03-14 09:20:32,954 INFO [payment-service] Search query completed in 75ms (149 results)
+2026-03-14 09:20:42,891 INFO [inventory-service] Added item 900 to cart 3738
+2026-03-14 09:20:50,987 INFO [api-gateway] Added item 495 to cart 1875
+2026-03-14 09:20:55,296 INFO [inventory-service] Added item 492 to cart 5266
+2026-03-14 09:21:00,719 INFO [search-service] Cache hit ratio 88%
+2026-03-14 09:21:08,574 INFO [auth-service] Search query completed in 30ms (124 results)
+2026-03-14 09:21:18,019 ERROR [search-service] Timeout after 5000ms calling payment provider for order 89414
+2026-03-14 09:21:26,986 INFO [inventory-service] Health check passed
+2026-03-14 09:21:33,529 INFO [cart-service] Search query completed in 95ms (90 results)
+2026-03-14 09:21:40,525 WARN [search-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:21:47,883 INFO [api-gateway] Health check passed
+2026-03-14 09:21:51,958 DEBUG [inventory-service] Request context loaded in 5ms
+2026-03-14 09:22:00,627 INFO [api-gateway] Search query completed in 34ms (67 results)
+2026-03-14 09:22:04,721 INFO [api-gateway] Added item 268 to cart 7226
+2026-03-14 09:22:14,371 WARN [api-gateway] Connection pool at 88% capacity
+2026-03-14 09:22:19,941 INFO [payment-service] Added item 891 to cart 3977
+2026-03-14 09:22:24,728 INFO [api-gateway] GET /api/products/7660 200 57ms
+2026-03-14 09:22:34,715 INFO [payment-service] Health check passed
+2026-03-14 09:22:36,661 INFO [payment-service] Order 10407 placed successfully
+2026-03-14 09:22:43,851 INFO [payment-service] Search query completed in 54ms (33 results)
+2026-03-14 09:22:52,929 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:22:59,020 INFO [auth-service] Cache hit ratio 88%
+2026-03-14 09:23:02,041 INFO [inventory-service] Order 64773 placed successfully
+2026-03-14 09:23:06,127 INFO [auth-service] GET /api/products/3609 200 175ms
+2026-03-14 09:23:12,342 INFO [payment-service] Added item 982 to cart 260
+2026-03-14 09:23:18,103 INFO [auth-service] User 53870 logged in
+2026-03-14 09:23:27,778 INFO [auth-service] Search query completed in 77ms (100 results)
+2026-03-14 09:23:35,653 INFO [auth-service] User 73097 logged in
+2026-03-14 09:23:43,740 INFO [inventory-service] GET /api/products/7449 200 116ms
+2026-03-14 09:23:53,193 INFO [cart-service] User 46053 logged in
+2026-03-14 09:23:58,227 WARN [api-gateway] Retrying request to payment provider (attempt 1)
+2026-03-14 09:24:05,025 INFO [auth-service] Health check passed
+2026-03-14 09:24:07,962 INFO [search-service] Added item 959 to cart 3085
+2026-03-14 09:24:15,587 DEBUG [api-gateway] Request context loaded in 4ms
+2026-03-14 09:24:20,256 INFO [inventory-service] Added item 207 to cart 1406
+2026-03-14 09:24:22,424 INFO [auth-service] Health check passed
+2026-03-14 09:24:31,202 INFO [cart-service] GET /api/products/9217 200 135ms
+2026-03-14 09:24:38,525 INFO [search-service] Order 50626 placed successfully
+2026-03-14 09:24:45,256 DEBUG [inventory-service] Request context loaded in 4ms
+2026-03-14 09:24:48,012 INFO [inventory-service] Cache hit ratio 97%
+2026-03-14 09:24:54,323 INFO [cart-service] GET /api/products/6696 200 65ms
+2026-03-14 09:24:59,485 INFO [search-service] GET /api/products/8118 200 150ms
+2026-03-14 09:25:08,597 INFO [api-gateway] Cache hit ratio 83%
+2026-03-14 09:25:13,900 INFO [search-service] Search query completed in 28ms (95 results)
+2026-03-14 09:25:17,843 WARN [search-service] Retrying request to payment provider (attempt 3)
+2026-03-14 09:25:27,768 DEBUG [search-service] Request context loaded in 4ms
+2026-03-14 09:25:29,583 INFO [search-service] Order 59461 placed successfully
+2026-03-14 09:25:34,633 INFO [search-service] GET /api/products/2347 200 85ms
+2026-03-14 09:25:40,395 INFO [payment-service] Added item 225 to cart 7138
+2026-03-14 09:25:46,393 INFO [payment-service] Search query completed in 39ms (144 results)
+2026-03-14 09:25:48,895 INFO [search-service] Order 95014 placed successfully
+2026-03-14 09:25:58,539 INFO [inventory-service] Health check passed
+2026-03-14 09:26:01,949 INFO [auth-service] Cache hit ratio 88%
+2026-03-14 09:26:10,697 INFO [search-service] Search query completed in 23ms (143 results)
+2026-03-14 09:26:15,450 INFO [payment-service] GET /api/products/4017 200 132ms
+2026-03-14 09:26:20,428 INFO [auth-service] Added item 156 to cart 3233
+2026-03-14 09:26:25,732 INFO [auth-service] Search query completed in 70ms (186 results)
+2026-03-14 09:26:29,426 WARN [inventory-service] Connection pool at 82% capacity
+2026-03-14 09:26:34,361 INFO [cart-service] User 51284 logged in
+2026-03-14 09:26:35,432 INFO [api-gateway] Order 78086 placed successfully
+2026-03-14 09:26:42,221 INFO [payment-service] Order 45155 placed successfully
+2026-03-14 09:26:45,789 INFO [auth-service] Added item 400 to cart 2823
+2026-03-14 09:26:51,615 INFO [api-gateway] GET /api/products/8746 200 151ms
+2026-03-14 09:26:56,557 INFO [payment-service] Order 53271 placed successfully
+2026-03-14 09:27:03,475 INFO [search-service] User 79250 logged in
+2026-03-14 09:27:10,770 INFO [api-gateway] Cache hit ratio 82%
+2026-03-14 09:27:14,385 INFO [cart-service] Order 73823 placed successfully
+2026-03-14 09:27:22,680 INFO [auth-service] Added item 904 to cart 2534
+2026-03-14 09:27:28,799 INFO [auth-service] Search query completed in 49ms (165 results)
+2026-03-14 09:27:37,760 INFO [search-service] Order 91797 placed successfully
+2026-03-14 09:27:46,284 DEBUG [auth-service] Request context loaded in 1ms
+2026-03-14 09:27:56,091 INFO [search-service] Search query completed in 43ms (57 results)
+2026-03-14 09:28:04,600 INFO [payment-service] User 18031 logged in
+2026-03-14 09:28:08,488 INFO [api-gateway] Cache hit ratio 86%
+2026-03-14 09:28:16,005 INFO [api-gateway] Health check passed
+2026-03-14 09:28:23,164 INFO [auth-service] Health check passed
+2026-03-14 09:28:27,644 INFO [inventory-service] Health check passed
+2026-03-14 09:28:31,895 INFO [api-gateway] User 26198 logged in
+2026-03-14 09:28:39,231 INFO [cart-service] Health check passed
+2026-03-14 09:28:42,381 INFO [inventory-service] GET /api/products/9548 200 187ms
+2026-03-14 09:28:49,661 INFO [search-service] GET /api/products/1177 200 176ms
+2026-03-14 09:28:52,788 INFO [payment-service] Health check passed
+2026-03-14 09:28:58,095 INFO [cart-service] Order 56315 placed successfully
+2026-03-14 09:29:00,094 WARN [api-gateway] Connection pool at 80% capacity
+2026-03-14 09:29:06,977 INFO [inventory-service] Added item 432 to cart 1561
+2026-03-14 09:29:09,369 INFO [api-gateway] GET /api/products/7490 200 114ms
+2026-03-14 09:29:13,978 INFO [api-gateway] Health check passed
+2026-03-14 09:29:17,026 INFO [api-gateway] User 16610 logged in
+2026-03-14 09:29:18,197 INFO [auth-service] Order 49269 placed successfully
+2026-03-14 09:29:19,377 INFO [auth-service] Order 18591 placed successfully
+2026-03-14 09:29:20,395 INFO [inventory-service] GET /api/products/8321 200 154ms
+2026-03-14 09:29:23,330 INFO [search-service] Added item 534 to cart 8007
+2026-03-14 09:29:24,755 INFO [inventory-service] User 30860 logged in
+2026-03-14 09:29:25,817 INFO [cart-service] Search query completed in 41ms (71 results)
+2026-03-14 09:29:29,117 INFO [payment-service] Order 68496 placed successfully
+2026-03-14 09:29:33,685 INFO [payment-service] Health check passed
+2026-03-14 09:29:35,098 INFO [api-gateway] Order 85140 placed successfully
+2026-03-14 09:29:36,994 INFO [payment-service] User 68928 logged in
+2026-03-14 09:29:38,562 INFO [payment-service] Search query completed in 88ms (136 results)
+2026-03-14 09:29:46,998 INFO [auth-service] GET /api/products/1274 200 159ms
+2026-03-14 09:29:56,824 INFO [search-service] Order 64605 placed successfully
+2026-03-14 09:29:59,614 INFO [auth-service] Health check passed
+2026-03-14 09:30:08,809 INFO [inventory-service] Order 97986 placed successfully
+2026-03-14 09:30:16,398 ERROR [search-service] Failed to reserve stock for SKU 713597: insufficient quantity
+2026-03-14 09:30:19,275 INFO [api-gateway] GET /api/products/7623 200 134ms
+2026-03-14 09:30:26,499 INFO [inventory-service] Health check passed
+2026-03-14 09:30:28,429 INFO [inventory-service] GET /api/products/5374 200 124ms
+2026-03-14 09:30:33,946 INFO [search-service] GET /api/products/9836 200 180ms
+2026-03-14 09:30:36,207 INFO [payment-service] Cache hit ratio 81%
+2026-03-14 09:30:38,987 INFO [cart-service] User 80370 logged in
+2026-03-14 09:30:46,281 INFO [auth-service] Added item 912 to cart 8856
+2026-03-14 09:30:48,193 INFO [inventory-service] Order 46858 placed successfully
+2026-03-14 09:30:57,755 INFO [inventory-service] Health check passed
+2026-03-14 09:31:04,800 INFO [auth-service] Search query completed in 31ms (65 results)
+2026-03-14 09:31:10,642 INFO [payment-service] Search query completed in 95ms (29 results)
+2026-03-14 09:31:14,476 INFO [auth-service] Health check passed
+2026-03-14 09:31:19,827 WARN [search-service] Connection pool at 83% capacity
+2026-03-14 09:31:24,114 INFO [cart-service] Search query completed in 17ms (124 results)
+2026-03-14 09:31:32,567 ERROR [auth-service] Timeout after 3000ms calling payment provider for order 88031
+2026-03-14 09:31:35,730 INFO [api-gateway] Cache hit ratio 94%
+2026-03-14 09:31:42,941 INFO [payment-service] Search query completed in 13ms (44 results)
+2026-03-14 09:31:48,956 INFO [cart-service] Health check passed
+2026-03-14 09:31:54,003 INFO [payment-service] User 38906 logged in
+2026-03-14 09:31:55,474 INFO [api-gateway] Search query completed in 68ms (66 results)
+2026-03-14 09:31:57,962 INFO [api-gateway] Order 43334 placed successfully
+2026-03-14 09:32:02,551 INFO [inventory-service] Added item 531 to cart 1534
+2026-03-14 09:32:11,307 INFO [search-service] Search query completed in 49ms (71 results)
+2026-03-14 09:32:19,409 INFO [inventory-service] Order 98595 placed successfully
+2026-03-14 09:32:22,606 INFO [inventory-service] GET /api/products/5234 200 194ms
+2026-03-14 09:32:31,480 INFO [payment-service] GET /api/products/2626 200 25ms
+2026-03-14 09:32:40,149 INFO [cart-service] GET /api/products/3935 200 165ms
+2026-03-14 09:32:43,471 WARN [auth-service] Slow response from inventory DB: 1033ms
+2026-03-14 09:32:45,240 DEBUG [api-gateway] Request context loaded in 3ms
+2026-03-14 09:32:48,632 INFO [auth-service] User 12885 logged in
+2026-03-14 09:32:54,802 DEBUG [search-service] Request context loaded in 1ms
+2026-03-14 09:33:02,137 INFO [payment-service] User 70269 logged in
+2026-03-14 09:33:04,118 INFO [search-service] Added item 365 to cart 3994
+2026-03-14 09:33:10,600 INFO [search-service] Added item 883 to cart 8073
+2026-03-14 09:33:19,680 ERROR [auth-service] JWT validation failed: token expired
+2026-03-14 09:33:28,260 INFO [payment-service] GET /api/products/8773 200 134ms
+2026-03-14 09:33:30,859 ERROR [payment-service] JWT validation failed: token expired
+2026-03-14 09:33:35,427 INFO [payment-service] Search query completed in 44ms (133 results)
+2026-03-14 09:33:37,968 WARN [cart-service] Retrying request to payment provider (attempt 1)
+2026-03-14 09:33:46,213 INFO [cart-service] GET /api/products/7071 200 169ms
+2026-03-14 09:33:47,315 INFO [cart-service] Order 42661 placed successfully
+2026-03-14 09:33:49,420 INFO [search-service] Health check passed
+2026-03-14 09:33:56,676 INFO [payment-service] User 74768 logged in
+2026-03-14 09:34:04,684 INFO [search-service] Health check passed
+2026-03-14 09:34:11,841 INFO [api-gateway] Cache hit ratio 83%
+2026-03-14 09:34:13,888 INFO [inventory-service] GET /api/products/9850 200 76ms
+2026-03-14 09:34:22,904 INFO [search-service] Health check passed
+2026-03-14 09:34:24,522 INFO [cart-service] Search query completed in 31ms (87 results)
+2026-03-14 09:34:30,676 INFO [inventory-service] Order 37602 placed successfully
+2026-03-14 09:34:32,769 DEBUG [inventory-service] Request context loaded in 1ms
+2026-03-14 09:34:41,107 INFO [api-gateway] Search query completed in 30ms (177 results)
+2026-03-14 09:34:47,237 INFO [api-gateway] Search query completed in 10ms (24 results)
+2026-03-14 09:34:54,396 INFO [search-service] Health check passed
+2026-03-14 09:34:56,674 WARN [inventory-service] Slow response from inventory DB: 1256ms
+2026-03-14 09:34:59,865 INFO [cart-service] Search query completed in 96ms (87 results)
+2026-03-14 09:35:06,834 INFO [auth-service] Cache hit ratio 91%
+2026-03-14 09:35:14,307 INFO [search-service] Health check passed
+2026-03-14 09:35:17,974 DEBUG [inventory-service] Request context loaded in 3ms
+2026-03-14 09:35:27,362 INFO [payment-service] Search query completed in 36ms (179 results)
+2026-03-14 09:35:28,578 DEBUG [cart-service] Request context loaded in 1ms
+2026-03-14 09:35:31,883 INFO [inventory-service] Cache hit ratio 84%
+2026-03-14 09:35:38,165 DEBUG [cart-service] Request context loaded in 1ms
+2026-03-14 09:35:46,944 INFO [api-gateway] User 59339 logged in
+2026-03-14 09:35:52,746 DEBUG [payment-service] Request context loaded in 5ms
+2026-03-14 09:35:56,383 INFO [api-gateway] User 65342 logged in
+2026-03-14 09:35:57,950 INFO [inventory-service] User 36070 logged in
+2026-03-14 09:36:05,404 INFO [inventory-service] GET /api/products/2542 200 187ms
+2026-03-14 09:36:09,538 INFO [inventory-service] Health check passed
+2026-03-14 09:36:13,310 INFO [cart-service] Order 45483 placed successfully
+2026-03-14 09:36:18,104 INFO [search-service] Health check passed
+2026-03-14 09:36:21,794 INFO [api-gateway] GET /api/products/2271 200 59ms
+2026-03-14 09:36:30,330 INFO [cart-service] Order 27639 placed successfully
+2026-03-14 09:36:36,910 INFO [auth-service] Order 67165 placed successfully
+2026-03-14 09:36:44,723 INFO [inventory-service] Order 56122 placed successfully
+2026-03-14 09:36:53,177 INFO [cart-service] Order 95092 placed successfully
+2026-03-14 09:36:59,522 WARN [inventory-service] Connection pool at 82% capacity
+2026-03-14 09:37:06,684 INFO [payment-service] Added item 277 to cart 766
+2026-03-14 09:37:11,039 INFO [payment-service] GET /api/products/9759 200 194ms
+2026-03-14 09:37:15,330 DEBUG [auth-service] Request context loaded in 4ms
+2026-03-14 09:37:18,762 INFO [inventory-service] Search query completed in 21ms (167 results)
+2026-03-14 09:37:21,479 INFO [auth-service] Added item 984 to cart 5586
+2026-03-14 09:37:24,554 INFO [inventory-service] GET /api/products/8763 200 160ms
+2026-03-14 09:37:32,399 WARN [auth-service] Connection pool at 93% capacity
+2026-03-14 09:37:42,185 INFO [payment-service] Cache hit ratio 92%
+2026-03-14 09:37:46,747 INFO [inventory-service] Order 46598 placed successfully
+2026-03-14 09:37:51,078 INFO [api-gateway] Health check passed
+2026-03-14 09:37:58,937 INFO [search-service] Added item 819 to cart 1615
+2026-03-14 09:38:04,334 INFO [auth-service] Order 80062 placed successfully
+2026-03-14 09:38:11,031 INFO [cart-service] Search query completed in 55ms (13 results)
+2026-03-14 09:38:13,649 INFO [auth-service] Added item 477 to cart 4591
+2026-03-14 09:38:15,034 INFO [payment-service] Cache hit ratio 87%
+2026-03-14 09:38:17,275 ERROR [api-gateway] Failed to reserve stock for SKU 940221: insufficient quantity
+2026-03-14 09:38:25,892 INFO [inventory-service] Cache hit ratio 87%
+2026-03-14 09:38:31,828 INFO [cart-service] Search query completed in 84ms (172 results)
+2026-03-14 09:38:36,976 INFO [cart-service] GET /api/products/8989 200 86ms
+2026-03-14 09:38:38,912 INFO [inventory-service] Order 53378 placed successfully
+2026-03-14 09:38:48,621 INFO [payment-service] Search query completed in 16ms (61 results)
+2026-03-14 09:38:52,087 INFO [auth-service] Health check passed
+2026-03-14 09:38:54,230 INFO [api-gateway] GET /api/products/6486 200 162ms
+2026-03-14 09:39:00,243 INFO [inventory-service] Added item 993 to cart 500
+2026-03-14 09:39:02,019 INFO [api-gateway] Health check passed
+2026-03-14 09:39:09,235 INFO [inventory-service] GET /api/products/1413 200 42ms
+2026-03-14 09:39:11,667 WARN [cart-service] Retrying request to payment provider (attempt 3)
+2026-03-14 09:39:13,588 INFO [auth-service] Order 46106 placed successfully
+2026-03-14 09:39:20,197 WARN [auth-service] Slow response from inventory DB: 997ms
+2026-03-14 09:39:28,845 INFO [cart-service] Search query completed in 51ms (9 results)
+2026-03-14 09:39:38,377 INFO [auth-service] GET /api/products/8933 200 73ms
+2026-03-14 09:39:45,101 ERROR [inventory-service] Timeout after 5000ms calling payment provider for order 94090
+2026-03-14 09:39:51,890 INFO [search-service] User 32361 logged in
+2026-03-14 09:39:54,067 INFO [api-gateway] Health check passed
+2026-03-14 09:40:01,470 INFO [cart-service] Search query completed in 45ms (199 results)
+2026-03-14 09:40:10,231 INFO [search-service] User 66521 logged in
+2026-03-14 09:40:19,139 INFO [auth-service] Health check passed
+2026-03-14 09:40:24,012 INFO [inventory-service] Search query completed in 29ms (163 results)
+2026-03-14 09:40:32,771 INFO [inventory-service] Order 40368 placed successfully
+2026-03-14 09:40:36,297 INFO [search-service] Health check passed
+2026-03-14 09:40:45,405 INFO [inventory-service] GET /api/products/7450 200 57ms
+2026-03-14 09:40:46,714 DEBUG [search-service] Request context loaded in 2ms
+2026-03-14 09:40:50,047 INFO [search-service] GET /api/products/6077 200 54ms
+2026-03-14 09:40:58,225 INFO [inventory-service] User 93513 logged in
+2026-03-14 09:41:08,133 ERROR [auth-service] Timeout after 5000ms calling payment provider for order 29789
+2026-03-14 09:41:17,625 INFO [api-gateway] Order 46484 placed successfully
+2026-03-14 09:41:20,342 INFO [search-service] Search query completed in 28ms (115 results)
+2026-03-14 09:41:29,639 INFO [inventory-service] GET /api/products/6416 200 147ms
+2026-03-14 09:41:36,518 INFO [search-service] Search query completed in 31ms (162 results)
+2026-03-14 09:41:43,146 INFO [cart-service] Search query completed in 95ms (6 results)
+2026-03-14 09:41:51,830 INFO [api-gateway] User 72345 logged in
+2026-03-14 09:42:00,636 INFO [inventory-service] Cache hit ratio 88%
+2026-03-14 09:42:06,957 INFO [auth-service] Health check passed
+2026-03-14 09:42:08,949 INFO [cart-service] Cache hit ratio 95%
+2026-03-14 09:42:09,964 DEBUG [api-gateway] Request context loaded in 4ms
+2026-03-14 09:42:17,339 INFO [payment-service] Cache hit ratio 96%
+2026-03-14 09:42:25,614 DEBUG [api-gateway] Request context loaded in 5ms
+2026-03-14 09:42:32,880 INFO [api-gateway] Order 24992 placed successfully
+2026-03-14 09:42:34,467 INFO [api-gateway] Health check passed
+2026-03-14 09:42:40,736 INFO [cart-service] Cache hit ratio 81%
+2026-03-14 09:42:49,482 INFO [cart-service] Health check passed
+2026-03-14 09:42:51,217 INFO [cart-service] Health check passed
+2026-03-14 09:42:53,174 INFO [inventory-service] Health check passed
+2026-03-14 09:42:59,343 INFO [cart-service] Order 92091 placed successfully
+2026-03-14 09:43:02,069 INFO [cart-service] User 41218 logged in
+2026-03-14 09:43:11,126 ERROR [payment-service] Failed to reserve stock for SKU 591815: insufficient quantity
+2026-03-14 09:43:18,025 INFO [auth-service] Cache hit ratio 94%
+2026-03-14 09:43:24,765 INFO [search-service] GET /api/products/2366 200 94ms
+2026-03-14 09:43:33,624 WARN [inventory-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:43:40,580 WARN [cart-service] Connection pool at 84% capacity
+2026-03-14 09:43:43,620 INFO [api-gateway] Cache hit ratio 81%
+2026-03-14 09:43:47,162 INFO [cart-service] Search query completed in 29ms (17 results)
+2026-03-14 09:43:52,670 DEBUG [search-service] Request context loaded in 2ms
+2026-03-14 09:44:00,155 INFO [api-gateway] Order 84513 placed successfully
+2026-03-14 09:44:03,586 DEBUG [auth-service] Request context loaded in 3ms
+2026-03-14 09:44:10,801 INFO [auth-service] Added item 422 to cart 2503
+2026-03-14 09:44:20,147 INFO [payment-service] Added item 229 to cart 2148
+2026-03-14 09:44:27,181 INFO [auth-service] Health check passed
+2026-03-14 09:44:37,028 ERROR [search-service] JWT validation failed: token expired
+2026-03-14 09:44:42,398 INFO [search-service] Health check passed
+2026-03-14 09:44:43,690 DEBUG [search-service] Request context loaded in 5ms
+2026-03-14 09:44:45,717 INFO [inventory-service] User 93719 logged in
+2026-03-14 09:44:51,918 INFO [cart-service] Cache hit ratio 98%
+2026-03-14 09:45:00,609 INFO [auth-service] Added item 805 to cart 4237
+2026-03-14 09:45:05,902 INFO [auth-service] Health check passed
+2026-03-14 09:45:08,732 INFO [auth-service] Cache hit ratio 92%
+2026-03-14 09:45:13,812 DEBUG [payment-service] Request context loaded in 2ms
+2026-03-14 09:45:22,193 INFO [inventory-service] Health check passed
+2026-03-14 09:45:30,357 INFO [search-service] Order 85385 placed successfully
+2026-03-14 09:45:38,068 ERROR [api-gateway] Timeout after 3000ms calling payment provider for order 27569
+2026-03-14 09:45:45,382 INFO [search-service] Cache hit ratio 98%
+2026-03-14 09:45:52,007 INFO [payment-service] Order 47087 placed successfully
+2026-03-14 09:45:58,137 INFO [cart-service] GET /api/products/2586 200 57ms
+2026-03-14 09:45:59,992 INFO [cart-service] Order 46259 placed successfully
+2026-03-14 09:46:09,960 DEBUG [payment-service] Request context loaded in 2ms
+2026-03-14 09:46:16,626 INFO [auth-service] Order 56528 placed successfully
+2026-03-14 09:46:21,066 INFO [payment-service] Search query completed in 31ms (28 results)
+2026-03-14 09:46:28,567 DEBUG [inventory-service] Request context loaded in 1ms
+2026-03-14 09:46:38,398 INFO [auth-service] User 45638 logged in
+2026-03-14 09:46:43,816 WARN [auth-service] Connection pool at 85% capacity
+2026-03-14 09:46:47,508 INFO [inventory-service] User 32408 logged in
+2026-03-14 09:46:54,704 INFO [inventory-service] Search query completed in 10ms (73 results)
+2026-03-14 09:47:02,460 INFO [auth-service] Search query completed in 24ms (179 results)
+2026-03-14 09:47:04,386 INFO [inventory-service] Order 78757 placed successfully
+2026-03-14 09:47:12,874 INFO [payment-service] Health check passed
+2026-03-14 09:47:14,053 INFO [payment-service] Search query completed in 52ms (92 results)
+2026-03-14 09:47:20,632 INFO [inventory-service] Cache hit ratio 91%
+2026-03-14 09:47:30,607 INFO [search-service] Health check passed
+2026-03-14 09:47:32,059 INFO [cart-service] GET /api/products/7309 200 190ms
+2026-03-14 09:47:38,803 INFO [api-gateway] Order 91425 placed successfully
+2026-03-14 09:47:43,118 INFO [api-gateway] GET /api/products/6586 200 122ms
+2026-03-14 09:47:47,490 WARN [payment-service] Slow response from inventory DB: 1974ms
+2026-03-14 09:47:52,936 INFO [search-service] Added item 978 to cart 8017
+2026-03-14 09:47:55,080 INFO [api-gateway] GET /api/products/9439 200 68ms
+2026-03-14 09:47:56,484 WARN [api-gateway] Connection pool at 81% capacity
+2026-03-14 09:48:02,573 INFO [cart-service] Added item 594 to cart 8066
+2026-03-14 09:48:04,090 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:48:08,249 INFO [payment-service] GET /api/products/1008 200 124ms
+2026-03-14 09:48:16,852 INFO [search-service] Order 76050 placed successfully
+2026-03-14 09:48:19,595 INFO [payment-service] Cache hit ratio 81%
+2026-03-14 09:48:26,689 DEBUG [api-gateway] Request context loaded in 1ms
+2026-03-14 09:48:29,472 INFO [auth-service] Search query completed in 15ms (55 results)
+2026-03-14 09:48:33,972 DEBUG [inventory-service] Request context loaded in 3ms
+2026-03-14 09:48:40,970 INFO [payment-service] Search query completed in 52ms (66 results)
+2026-03-14 09:48:46,662 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 75306
+2026-03-14 09:48:52,860 INFO [inventory-service] Order 55086 placed successfully
+2026-03-14 09:48:59,515 INFO [api-gateway] GET /api/products/8395 200 66ms
+2026-03-14 09:49:08,879 INFO [auth-service] Order 64516 placed successfully
+2026-03-14 09:49:10,274 INFO [inventory-service] Added item 121 to cart 4669
+2026-03-14 09:49:16,308 INFO [auth-service] User 77727 logged in
+2026-03-14 09:49:19,920 INFO [search-service] Search query completed in 49ms (154 results)
+2026-03-14 09:49:25,344 INFO [api-gateway] Health check passed
+2026-03-14 09:49:32,630 INFO [cart-service] Health check passed
+2026-03-14 09:49:34,819 INFO [inventory-service] Search query completed in 29ms (92 results)
+2026-03-14 09:49:40,103 INFO [payment-service] Cache hit ratio 97%
+2026-03-14 09:49:42,220 INFO [cart-service] User 65749 logged in
+2026-03-14 09:49:43,773 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:49:47,205 INFO [cart-service] Search query completed in 86ms (128 results)
+2026-03-14 09:49:52,863 DEBUG [api-gateway] Request context loaded in 3ms
+2026-03-14 09:49:57,801 INFO [api-gateway] Search query completed in 67ms (100 results)
+2026-03-14 09:50:02,111 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:50:04,108 INFO [payment-service] GET /api/products/4853 200 35ms
+2026-03-14 09:50:10,516 INFO [api-gateway] GET /api/products/4347 200 176ms
+2026-03-14 09:50:19,932 INFO [search-service] GET /api/products/4420 200 44ms
+2026-03-14 09:50:29,866 INFO [payment-service] Added item 446 to cart 7521
+2026-03-14 09:50:38,825 DEBUG [inventory-service] Request context loaded in 3ms
+2026-03-14 09:50:48,117 INFO [search-service] Health check passed
+2026-03-14 09:50:56,426 INFO [api-gateway] Cache hit ratio 83%
+2026-03-14 09:51:00,356 INFO [auth-service] Health check passed
+2026-03-14 09:51:01,611 DEBUG [payment-service] Request context loaded in 1ms
+2026-03-14 09:51:10,403 INFO [cart-service] GET /api/products/2472 200 182ms
+2026-03-14 09:51:16,697 INFO [inventory-service] Search query completed in 50ms (135 results)
+2026-03-14 09:51:18,532 INFO [api-gateway] Added item 374 to cart 1366
+2026-03-14 09:51:20,784 INFO [auth-service] GET /api/products/3162 200 43ms
+2026-03-14 09:51:27,290 INFO [inventory-service] Order 54867 placed successfully
+2026-03-14 09:51:35,972 DEBUG [auth-service] Request context loaded in 1ms
+2026-03-14 09:51:37,135 INFO [payment-service] User 47850 logged in
+2026-03-14 09:51:45,665 INFO [cart-service] User 31154 logged in
+2026-03-14 09:51:53,611 INFO [payment-service] GET /api/products/7841 200 93ms
+2026-03-14 09:51:57,005 INFO [inventory-service] Added item 673 to cart 3361
+2026-03-14 09:52:00,555 DEBUG [inventory-service] Request context loaded in 5ms
+2026-03-14 09:52:02,824 INFO [search-service] Cache hit ratio 83%
+2026-03-14 09:52:10,082 DEBUG [inventory-service] Request context loaded in 1ms
+2026-03-14 09:52:15,549 INFO [cart-service] User 73069 logged in
+2026-03-14 09:52:20,184 INFO [payment-service] Order 80215 placed successfully
+2026-03-14 09:52:22,926 DEBUG [auth-service] Request context loaded in 4ms
+2026-03-14 09:52:25,119 INFO [auth-service] GET /api/products/9850 200 110ms
+2026-03-14 09:52:26,864 DEBUG [payment-service] Request context loaded in 1ms
+2026-03-14 09:52:35,974 ERROR [cart-service] JWT validation failed: token expired
+2026-03-14 09:52:37,331 INFO [cart-service] GET /api/products/4789 200 105ms
+2026-03-14 09:52:42,538 INFO [payment-service] Added item 193 to cart 3958
+2026-03-14 09:52:50,004 INFO [inventory-service] GET /api/products/7839 200 100ms
+2026-03-14 09:52:57,441 INFO [auth-service] Order 85488 placed successfully
+2026-03-14 09:53:02,593 WARN [inventory-service] Retrying request to payment provider (attempt 1)
+2026-03-14 09:53:11,273 DEBUG [api-gateway] Request context loaded in 1ms
+2026-03-14 09:53:20,934 INFO [inventory-service] User 21219 logged in
+2026-03-14 09:53:29,812 INFO [api-gateway] User 19248 logged in
+2026-03-14 09:53:35,647 INFO [api-gateway] Added item 545 to cart 4159
+2026-03-14 09:53:37,398 INFO [cart-service] Order 64700 placed successfully
+2026-03-14 09:53:40,486 INFO [inventory-service] Order 56804 placed successfully
+2026-03-14 09:53:49,220 DEBUG [cart-service] Request context loaded in 2ms
+2026-03-14 09:53:58,013 INFO [payment-service] Search query completed in 36ms (46 results)
+2026-03-14 09:54:00,876 INFO [search-service] User 28071 logged in
+2026-03-14 09:54:07,939 INFO [inventory-service] Search query completed in 53ms (45 results)
+2026-03-14 09:54:13,217 INFO [payment-service] Search query completed in 12ms (125 results)
+2026-03-14 09:54:17,609 WARN [cart-service] Retrying request to payment provider (attempt 3)
+2026-03-14 09:54:23,804 ERROR [search-service] Timeout after 5000ms calling payment provider for order 88804
+2026-03-14 09:54:24,907 INFO [cart-service] Order 80531 placed successfully
+2026-03-14 09:54:28,886 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:54:30,296 INFO [payment-service] Cache hit ratio 85%
+2026-03-14 09:54:32,118 INFO [auth-service] User 88082 logged in
+2026-03-14 09:54:33,460 INFO [cart-service] Order 12496 placed successfully
+2026-03-14 09:54:42,171 WARN [inventory-service] Connection pool at 82% capacity
+2026-03-14 09:54:49,744 INFO [api-gateway] GET /api/products/9346 200 120ms
+2026-03-14 09:54:54,116 INFO [cart-service] Health check passed
+2026-03-14 09:54:58,749 INFO [api-gateway] User 95500 logged in
+2026-03-14 09:55:07,772 INFO [search-service] Health check passed
+2026-03-14 09:55:14,554 INFO [payment-service] Health check passed
+2026-03-14 09:55:20,358 INFO [api-gateway] Added item 397 to cart 1726
+2026-03-14 09:55:27,355 DEBUG [payment-service] Request context loaded in 1ms
+2026-03-14 09:55:28,975 INFO [cart-service] GET /api/products/6725 200 57ms
+2026-03-14 09:55:34,104 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:55:37,078 INFO [payment-service] Cache hit ratio 88%
+2026-03-14 09:55:43,102 INFO [api-gateway] User 92605 logged in
+2026-03-14 09:55:48,617 WARN [auth-service] Connection pool at 88% capacity
+2026-03-14 09:55:51,350 INFO [cart-service] Added item 711 to cart 8339
+2026-03-14 09:55:53,200 INFO [payment-service] Added item 836 to cart 6910
+2026-03-14 09:55:56,945 INFO [api-gateway] Search query completed in 22ms (111 results)
+2026-03-14 09:55:58,347 INFO [auth-service] Added item 515 to cart 2325
+2026-03-14 09:56:00,683 INFO [search-service] Added item 165 to cart 1006
+2026-03-14 09:56:02,358 INFO [auth-service] GET /api/products/6241 200 51ms
+2026-03-14 09:56:06,620 INFO [search-service] Order 69877 placed successfully
+2026-03-14 09:56:08,387 INFO [search-service] Search query completed in 44ms (145 results)
+2026-03-14 09:56:11,102 INFO [api-gateway] Search query completed in 81ms (39 results)
+2026-03-14 09:56:16,921 INFO [payment-service] Order 22330 placed successfully
+2026-03-14 09:56:20,506 INFO [payment-service] Cache hit ratio 90%
+2026-03-14 09:56:28,701 WARN [search-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:56:35,396 INFO [cart-service] Health check passed
+2026-03-14 09:56:41,343 INFO [cart-service] Added item 826 to cart 102
+2026-03-14 09:56:44,232 INFO [search-service] Order 21434 placed successfully
+2026-03-14 09:56:53,078 INFO [payment-service] Health check passed
+2026-03-14 09:56:55,948 INFO [search-service] User 63894 logged in
+2026-03-14 09:56:57,443 ERROR [inventory-service] JWT validation failed: token expired
+2026-03-14 09:56:59,936 INFO [payment-service] Added item 848 to cart 4579
+2026-03-14 09:57:09,830 INFO [payment-service] Health check passed
+2026-03-14 09:57:11,273 INFO [auth-service] Cache hit ratio 80%
+2026-03-14 09:57:12,643 INFO [search-service] Order 96848 placed successfully
+2026-03-14 09:57:13,817 INFO [auth-service] Order 95616 placed successfully
+2026-03-14 09:57:16,897 ERROR [search-service] JWT validation failed: token expired
+2026-03-14 09:57:21,439 INFO [cart-service] GET /api/products/7519 200 186ms
+2026-03-14 09:57:30,497 INFO [inventory-service] Cache hit ratio 84%
+2026-03-14 09:57:39,583 INFO [cart-service] Health check passed
+2026-03-14 09:57:47,866 INFO [payment-service] User 47889 logged in
+2026-03-14 09:57:51,131 INFO [cart-service] Health check passed
+2026-03-14 09:57:57,376 INFO [api-gateway] Order 61161 placed successfully
+2026-03-14 09:57:59,607 INFO [payment-service] User 29512 logged in
+2026-03-14 09:58:06,978 INFO [inventory-service] User 34097 logged in
+2026-03-14 09:58:13,494 INFO [inventory-service] Search query completed in 34ms (166 results)
+2026-03-14 09:58:20,563 INFO [search-service] Search query completed in 26ms (18 results)
+2026-03-14 09:58:30,544 INFO [auth-service] Health check passed
+2026-03-14 09:58:39,122 INFO [inventory-service] GET /api/products/3527 200 25ms
+2026-03-14 09:58:43,251 INFO [api-gateway] Health check passed
+2026-03-14 09:58:50,998 INFO [api-gateway] Order 78410 placed successfully
+2026-03-14 09:58:55,261 INFO [auth-service] Search query completed in 36ms (25 results)
+2026-03-14 09:58:58,470 INFO [inventory-service] User 96372 logged in
+2026-03-14 09:59:03,767 INFO [auth-service] Health check passed
+2026-03-14 09:59:07,534 INFO [search-service] Search query completed in 75ms (184 results)
+2026-03-14 09:59:16,044 WARN [inventory-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 09:59:22,944 INFO [cart-service] User 10073 logged in
+2026-03-14 09:59:32,777 INFO [search-service] Health check passed
+2026-03-14 09:59:40,901 INFO [search-service] Search query completed in 99ms (111 results)
+2026-03-14 09:59:49,236 INFO [auth-service] Health check passed
+2026-03-14 09:59:51,925 ERROR [inventory-service] Failed to reserve stock for SKU 540141: insufficient quantity
+2026-03-14 09:59:53,381 INFO [payment-service] Added item 939 to cart 4874
+2026-03-14 10:00:00,926 INFO [auth-service] Cache hit ratio 95%
+2026-03-14 10:00:06,766 INFO [auth-service] GET /api/products/8240 200 38ms
+2026-03-14 10:00:08,840 INFO [search-service] GET /api/products/8039 200 76ms
+2026-03-14 10:00:11,293 INFO [cart-service] Cache hit ratio 89%
+2026-03-14 10:00:13,474 WARN [auth-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:00:20,712 INFO [api-gateway] Added item 856 to cart 4719
+2026-03-14 10:00:29,567 INFO [payment-service] Cache hit ratio 86%
+2026-03-14 10:00:32,836 INFO [search-service] User 61892 logged in
+2026-03-14 10:00:40,231 WARN [search-service] Slow response from inventory DB: 1205ms
+2026-03-14 10:00:47,208 INFO [payment-service] Cache hit ratio 94%
+2026-03-14 10:00:48,779 INFO [inventory-service] User 58084 logged in
+2026-03-14 10:00:50,116 INFO [auth-service] Search query completed in 91ms (92 results)
+2026-03-14 10:00:55,547 WARN [inventory-service] Connection pool at 93% capacity
+2026-03-14 10:01:03,945 DEBUG [api-gateway] Request context loaded in 4ms
+2026-03-14 10:01:13,090 INFO [cart-service] Order 79660 placed successfully
+2026-03-14 10:01:19,515 INFO [api-gateway] Cache hit ratio 81%
+2026-03-14 10:01:26,683 DEBUG [auth-service] Request context loaded in 2ms
+2026-03-14 10:01:35,889 INFO [api-gateway] Search query completed in 33ms (169 results)
+2026-03-14 10:01:42,791 INFO [cart-service] User 55842 logged in
+2026-03-14 10:01:48,719 INFO [inventory-service] Order 67595 placed successfully
+2026-03-14 10:01:51,612 INFO [cart-service] Search query completed in 30ms (139 results)
+2026-03-14 10:02:01,508 INFO [inventory-service] Search query completed in 74ms (105 results)
+2026-03-14 10:02:09,529 INFO [payment-service] GET /api/products/1941 200 152ms
+2026-03-14 10:02:11,641 INFO [api-gateway] GET /api/products/6443 200 101ms
+2026-03-14 10:02:18,736 INFO [payment-service] Search query completed in 12ms (64 results)
+2026-03-14 10:02:23,940 INFO [api-gateway] Cache hit ratio 86%
+2026-03-14 10:02:30,909 INFO [cart-service] Added item 676 to cart 438
+2026-03-14 10:02:33,797 ERROR [search-service] JWT validation failed: token expired
+2026-03-14 10:02:37,583 INFO [cart-service] Health check passed
+2026-03-14 10:02:39,944 INFO [cart-service] GET /api/products/8567 200 91ms
+2026-03-14 10:02:46,805 INFO [inventory-service] Cache hit ratio 96%
+2026-03-14 10:02:50,439 INFO [inventory-service] Order 22752 placed successfully
+2026-03-14 10:02:57,882 INFO [api-gateway] Added item 830 to cart 7297
+2026-03-14 10:03:01,134 INFO [cart-service] Search query completed in 82ms (120 results)
+2026-03-14 10:03:10,493 INFO [payment-service] Search query completed in 45ms (156 results)
+2026-03-14 10:03:15,054 INFO [api-gateway] GET /api/products/9664 200 133ms
+2026-03-14 10:03:23,729 INFO [search-service] GET /api/products/5314 200 109ms
+2026-03-14 10:03:30,183 INFO [cart-service] Health check passed
+2026-03-14 10:03:33,257 INFO [auth-service] GET /api/products/9002 200 198ms
+2026-03-14 10:03:42,564 INFO [auth-service] Search query completed in 50ms (34 results)
+2026-03-14 10:03:52,502 WARN [api-gateway] Connection pool at 89% capacity
+2026-03-14 10:03:59,533 INFO [inventory-service] Search query completed in 84ms (19 results)
+2026-03-14 10:04:07,110 INFO [payment-service] User 92328 logged in
+2026-03-14 10:04:16,049 INFO [cart-service] Health check passed
+2026-03-14 10:04:20,928 WARN [search-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:04:26,763 INFO [payment-service] User 63679 logged in
+2026-03-14 10:04:35,340 INFO [auth-service] Cache hit ratio 87%
+2026-03-14 10:04:40,917 DEBUG [auth-service] Request context loaded in 2ms
+2026-03-14 10:04:43,057 INFO [payment-service] Order 96396 placed successfully
+2026-03-14 10:04:51,487 INFO [search-service] Health check passed
+2026-03-14 10:05:01,170 INFO [api-gateway] Health check passed
+2026-03-14 10:05:03,393 WARN [cart-service] Slow response from inventory DB: 1168ms
+2026-03-14 10:05:07,792 INFO [search-service] User 87385 logged in
+2026-03-14 10:05:09,234 INFO [search-service] Order 54751 placed successfully
+2026-03-14 10:05:10,400 INFO [auth-service] GET /api/products/2595 200 92ms
+2026-03-14 10:05:19,401 INFO [auth-service] Order 35783 placed successfully
+2026-03-14 10:05:29,384 INFO [api-gateway] Cache hit ratio 89%
+2026-03-14 10:05:33,454 INFO [cart-service] User 68337 logged in
+2026-03-14 10:05:42,965 INFO [auth-service] Search query completed in 20ms (74 results)
+2026-03-14 10:05:46,293 WARN [payment-service] Connection pool at 88% capacity
+2026-03-14 10:05:53,043 WARN [search-service] Slow response from inventory DB: 1122ms
+2026-03-14 10:05:59,358 INFO [auth-service] Cache hit ratio 83%
+2026-03-14 10:06:00,904 INFO [search-service] User 82229 logged in
+2026-03-14 10:06:06,946 INFO [api-gateway] Cache hit ratio 86%
+2026-03-14 10:06:14,404 INFO [cart-service] User 35126 logged in
+2026-03-14 10:06:15,480 INFO [payment-service] Health check passed
+2026-03-14 10:06:19,774 INFO [search-service] User 76357 logged in
+2026-03-14 10:06:21,349 INFO [payment-service] User 87011 logged in
+2026-03-14 10:06:28,930 INFO [inventory-service] GET /api/products/1217 200 60ms
+2026-03-14 10:06:36,212 INFO [payment-service] Cache hit ratio 86%
+2026-03-14 10:06:42,210 DEBUG [api-gateway] Request context loaded in 5ms
+2026-03-14 10:06:51,600 INFO [payment-service] GET /api/products/8806 200 175ms
+2026-03-14 10:06:58,124 INFO [payment-service] GET /api/products/6439 200 143ms
+2026-03-14 10:07:04,989 DEBUG [payment-service] Request context loaded in 2ms
+2026-03-14 10:07:11,990 INFO [payment-service] Health check passed
+2026-03-14 10:07:19,009 INFO [inventory-service] Order 33610 placed successfully
+2026-03-14 10:07:26,081 INFO [search-service] Order 50049 placed successfully
+2026-03-14 10:07:29,770 INFO [cart-service] Cache hit ratio 84%
+2026-03-14 10:07:35,847 INFO [api-gateway] User 40747 logged in
+2026-03-14 10:07:40,716 INFO [auth-service] Cache hit ratio 92%
+2026-03-14 10:07:43,615 INFO [auth-service] Health check passed
+2026-03-14 10:07:50,879 INFO [auth-service] Search query completed in 40ms (94 results)
+2026-03-14 10:07:56,152 WARN [cart-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:08:04,394 INFO [auth-service] User 11055 logged in
+2026-03-14 10:08:06,267 WARN [api-gateway] Retrying request to payment provider (attempt 1)
+2026-03-14 10:08:15,439 DEBUG [api-gateway] Request context loaded in 4ms
+2026-03-14 10:08:17,624 INFO [cart-service] Health check passed
+2026-03-14 10:08:20,259 INFO [api-gateway] Order 73395 placed successfully
+2026-03-14 10:08:25,057 ERROR [payment-service] Database connection refused: 10.0.3.40:5432
+2026-03-14 10:08:27,831 INFO [auth-service] Cache hit ratio 84%
+2026-03-14 10:08:33,387 INFO [inventory-service] Cache hit ratio 86%
+2026-03-14 10:08:38,194 INFO [auth-service] User 11167 logged in
+2026-03-14 10:08:40,543 INFO [inventory-service] Order 61850 placed successfully
+2026-03-14 10:08:46,367 INFO [search-service] User 16929 logged in
+2026-03-14 10:08:49,061 INFO [api-gateway] Order 76781 placed successfully
+2026-03-14 10:08:58,193 INFO [auth-service] Cache hit ratio 80%
+2026-03-14 10:08:59,912 INFO [cart-service] Added item 819 to cart 6169
+2026-03-14 10:09:07,160 INFO [search-service] Order 27461 placed successfully
+2026-03-14 10:09:16,332 INFO [inventory-service] Added item 378 to cart 5038
+2026-03-14 10:09:24,318 INFO [search-service] Health check passed
+2026-03-14 10:09:28,533 INFO [search-service] Order 63887 placed successfully
+2026-03-14 10:09:37,792 ERROR [inventory-service] JWT validation failed: token expired
+2026-03-14 10:09:41,179 INFO [search-service] Search query completed in 95ms (171 results)
+2026-03-14 10:09:44,760 INFO [api-gateway] Order 48634 placed successfully
+2026-03-14 10:09:54,312 INFO [api-gateway] User 41715 logged in
+2026-03-14 10:09:58,115 WARN [auth-service] Slow response from inventory DB: 1343ms
+2026-03-14 10:10:05,383 WARN [auth-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:10:11,401 INFO [inventory-service] Order 90974 placed successfully
+2026-03-14 10:10:16,744 INFO [api-gateway] Order 13837 placed successfully
+2026-03-14 10:10:26,712 WARN [api-gateway] Retrying request to payment provider (attempt 2)
+2026-03-14 10:10:31,108 WARN [cart-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:10:38,750 INFO [search-service] GET /api/products/1212 200 86ms
+2026-03-14 10:10:43,661 INFO [search-service] Added item 285 to cart 7524
+2026-03-14 10:10:51,853 INFO [auth-service] Added item 906 to cart 4673
+2026-03-14 10:11:01,779 INFO [auth-service] Order 74946 placed successfully
+2026-03-14 10:11:08,376 INFO [api-gateway] GET /api/products/8441 200 183ms
+2026-03-14 10:11:15,824 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 70595
+2026-03-14 10:11:20,128 INFO [payment-service] Order 57710 placed successfully
+2026-03-14 10:11:21,207 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 12958
+2026-03-14 10:11:24,388 INFO [search-service] Health check passed
+2026-03-14 10:11:26,156 INFO [payment-service] User 66854 logged in
+2026-03-14 10:11:33,468 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 63339
+2026-03-14 10:11:42,035 INFO [api-gateway] Search query completed in 54ms (4 results)
+2026-03-14 10:11:46,885 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 45985
+2026-03-14 10:11:50,872 INFO [cart-service] GET /api/products/9315 200 126ms
+2026-03-14 10:11:57,083 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 92507
+2026-03-14 10:11:58,861 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 15508
+2026-03-14 10:12:02,338 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 66340
+2026-03-14 10:12:10,950 INFO [cart-service] Cache hit ratio 95%
+2026-03-14 10:12:12,708 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 94228
+2026-03-14 10:12:20,651 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 24103
+2026-03-14 10:12:29,502 INFO [auth-service] Added item 504 to cart 8647
+2026-03-14 10:12:38,124 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 19171
+2026-03-14 10:12:46,530 INFO [auth-service] Search query completed in 57ms (162 results)
+2026-03-14 10:12:52,189 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 26331
+2026-03-14 10:12:57,418 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 52230
+2026-03-14 10:12:59,959 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 25112
+2026-03-14 10:13:01,145 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 15272
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:13:02,587 INFO [auth-service] Order 50788 placed successfully
+2026-03-14 10:13:11,752 INFO [auth-service] Added item 887 to cart 24
+2026-03-14 10:13:21,509 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 44830
+2026-03-14 10:13:30,479 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 45232
+2026-03-14 10:13:39,783 INFO [inventory-service] Order 24717 placed successfully
+2026-03-14 10:13:44,565 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 74418
+2026-03-14 10:13:49,073 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 53852
+2026-03-14 10:13:57,279 INFO [api-gateway] User 23372 logged in
+2026-03-14 10:14:01,452 INFO [search-service] Health check passed
+2026-03-14 10:14:04,478 INFO [search-service] Health check passed
+2026-03-14 10:14:08,775 INFO [cart-service] Cache hit ratio 86%
+2026-03-14 10:14:15,356 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 45406
+2026-03-14 10:14:20,207 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 57407
+2026-03-14 10:14:26,342 INFO [inventory-service] GET /api/products/1605 200 66ms
+2026-03-14 10:14:26,342 FATAL [payment-service] Circuit breaker OPEN for payment provider after repeated failures
+2026-03-14 10:14:33,098 INFO [inventory-service] Order 62197 placed successfully
+2026-03-14 10:14:39,249 INFO [cart-service] Search query completed in 35ms (95 results)
+2026-03-14 10:14:39,249 FATAL [payment-service] Circuit breaker OPEN for payment provider after repeated failures
+2026-03-14 10:14:47,271 INFO [api-gateway] Health check passed
+2026-03-14 10:14:52,065 INFO [inventory-service] Search query completed in 58ms (184 results)
+2026-03-14 10:14:56,817 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 34549
+2026-03-14 10:14:58,675 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 80651
+2026-03-14 10:15:07,644 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 62693
+2026-03-14 10:15:14,206 INFO [search-service] Order 96756 placed successfully
+2026-03-14 10:15:18,389 INFO [auth-service] User 85462 logged in
+2026-03-14 10:15:25,977 INFO [api-gateway] Search query completed in 47ms (69 results)
+2026-03-14 10:15:31,079 INFO [payment-service] Search query completed in 17ms (50 results)
+2026-03-14 10:15:33,099 INFO [search-service] User 90759 logged in
+2026-03-14 10:15:38,048 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 19318
+2026-03-14 10:15:45,185 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 10715
+2026-03-14 10:15:54,959 INFO [inventory-service] Added item 471 to cart 7453
+2026-03-14 10:16:04,358 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 31200
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:16:09,101 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 28866
+2026-03-14 10:16:10,604 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 50254
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:16:14,857 INFO [api-gateway] Cache hit ratio 88%
+2026-03-14 10:16:24,119 INFO [cart-service] Cache hit ratio 87%
+2026-03-14 10:16:31,464 INFO [auth-service] User 56864 logged in
+2026-03-14 10:16:33,371 INFO [auth-service] Order 90437 placed successfully
+2026-03-14 10:16:40,533 INFO [auth-service] Search query completed in 22ms (55 results)
+2026-03-14 10:16:45,546 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 63568
+2026-03-14 10:16:54,023 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 31785
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:17:00,520 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 73642
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:17:02,397 INFO [payment-service] Search query completed in 39ms (16 results)
+2026-03-14 10:17:04,351 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 94389
+2026-03-14 10:17:12,776 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 27407
+2026-03-14 10:17:19,305 INFO [inventory-service] Cache hit ratio 84%
+2026-03-14 10:17:23,592 INFO [cart-service] Cache hit ratio 83%
+2026-03-14 10:17:32,125 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 85636
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:17:37,517 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 75042
+2026-03-14 10:17:41,574 INFO [auth-service] GET /api/products/6044 200 154ms
+2026-03-14 10:17:46,187 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 97192
+2026-03-14 10:17:55,147 INFO [payment-service] Health check passed
+2026-03-14 10:17:57,315 INFO [search-service] User 81602 logged in
+2026-03-14 10:18:05,134 INFO [api-gateway] Search query completed in 19ms (184 results)
+2026-03-14 10:18:12,967 INFO [payment-service] Health check passed
+2026-03-14 10:18:18,719 INFO [inventory-service] Cache hit ratio 81%
+2026-03-14 10:18:24,940 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 17156
+2026-03-14 10:18:33,887 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 98224
+2026-03-14 10:18:36,174 ERROR [payment-service] Timeout after 3000ms calling payment provider for order 90390
+2026-03-14 10:18:41,070 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 17906
+2026-03-14 10:18:42,545 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 99763
+2026-03-14 10:18:50,122 ERROR [payment-service] Timeout after 5000ms calling payment provider for order 50859
+java.net.SocketTimeoutException: Read timed out
+    at com.shop.payments.ProviderClient.charge(ProviderClient.java:142)
+    at com.shop.payments.CheckoutService.pay(CheckoutService.java:87)
+2026-03-14 10:18:56,180 INFO [cart-service] Added item 664 to cart 328
+2026-03-14 10:19:03,277 WARN [inventory-service] Retrying request to payment provider (attempt 2)
+2026-03-14 10:19:05,132 INFO [payment-service] Order 38791 placed successfully
+2026-03-14 10:19:10,568 INFO [inventory-service] Search query completed in 29ms (75 results)
+2026-03-14 10:19:14,834 INFO [cart-service] User 12488 logged in
+2026-03-14 10:19:16,879 INFO [inventory-service] Search query completed in 66ms (1 results)
+2026-03-14 10:19:24,729 DEBUG [inventory-service] Request context loaded in 4ms
+2026-03-14 10:19:31,426 INFO [api-gateway] Order 66334 placed successfully
+2026-03-14 10:19:35,522 DEBUG [inventory-service] Request context loaded in 4ms
+2026-03-14 10:19:39,860 INFO [inventory-service] Health check passed
+2026-03-14 10:19:49,687 INFO [auth-service] Search query completed in 36ms (183 results)
+2026-03-14 10:19:53,520 INFO [cart-service] Health check passed
+2026-03-14 10:20:00,967 INFO [inventory-service] GET /api/products/9551 200 165ms
+2026-03-14 10:20:09,005 INFO [payment-service] GET /api/products/5550 200 77ms
+2026-03-14 10:20:10,677 INFO [search-service] Health check passed
+2026-03-14 10:20:20,119 INFO [api-gateway] Search query completed in 48ms (25 results)
+2026-03-14 10:20:28,944 INFO [search-service] Order 40268 placed successfully
+2026-03-14 10:20:38,795 INFO [search-service] Search query completed in 81ms (86 results)
+2026-03-14 10:20:43,327 INFO [search-service] User 85056 logged in
+2026-03-14 10:20:49,504 DEBUG [payment-service] Request context loaded in 4ms
+2026-03-14 10:20:54,581 INFO [api-gateway] Health check passed
+2026-03-14 10:21:03,725 INFO [payment-service] GET /api/products/1778 200 180ms
+2026-03-14 10:21:13,161 INFO [payment-service] Added item 519 to cart 175
+2026-03-14 10:21:19,195 INFO [auth-service] GET /api/products/1898 200 138ms
+2026-03-14 10:21:22,672 INFO [api-gateway] Search query completed in 80ms (106 results)
+2026-03-14 10:21:25,002 INFO [search-service] User 73667 logged in
+2026-03-14 10:21:34,010 INFO [search-service] Added item 124 to cart 8175
+2026-03-14 10:21:35,320 WARN [inventory-service] Slow response from inventory DB: 915ms
+2026-03-14 10:21:41,664 INFO [auth-service] Cache hit ratio 92%
+2026-03-14 10:21:43,017 INFO [auth-service] Search query completed in 85ms (3 results)
+2026-03-14 10:21:51,984 INFO [payment-service] Cache hit ratio 84%
+2026-03-14 10:21:56,959 INFO [cart-service] Health check passed
+2026-03-14 10:22:06,552 INFO [auth-service] Health check passed
+2026-03-14 10:22:11,311 DEBUG [inventory-service] Request context loaded in 4ms
+2026-03-14 10:22:18,066 INFO [cart-service] Health check passed
+2026-03-14 10:22:26,388 INFO [payment-service] Order 74259 placed successfully
+2026-03-14 10:22:29,582 INFO [payment-service] GET /api/products/6018 200 88ms
+2026-03-14 10:22:38,231 INFO [payment-service] GET /api/products/8999 200 150ms
+2026-03-14 10:22:46,649 INFO [auth-service] Search query completed in 65ms (150 results)
+2026-03-14 10:22:54,523 ERROR [cart-service] JWT validation failed: token expired
+2026-03-14 10:23:02,328 INFO [auth-service] Health check passed
+2026-03-14 10:23:10,256 INFO [search-service] Cache hit ratio 97%
+2026-03-14 10:23:17,322 INFO [api-gateway] Added item 776 to cart 6818
+2026-03-14 10:23:18,848 INFO [auth-service] User 78671 logged in
+2026-03-14 10:23:20,959 INFO [cart-service] Order 14205 placed successfully
+2026-03-14 10:23:22,534 DEBUG [payment-service] Request context loaded in 4ms
+2026-03-14 10:23:31,521 INFO [payment-service] Order 53933 placed successfully
+2026-03-14 10:23:36,442 INFO [inventory-service] Cache hit ratio 90%
+2026-03-14 10:23:37,523 INFO [search-service] Cache hit ratio 91%
+2026-03-14 10:23:46,551 INFO [auth-service] Order 71744 placed successfully
+2026-03-14 10:23:49,495 INFO [search-service] User 99433 logged in
+2026-03-14 10:23:55,826 ERROR [api-gateway] Timeout after 5000ms calling payment provider for order 22410
+2026-03-14 10:24:04,209 INFO [payment-service] Added item 854 to cart 4011
+2026-03-14 10:24:09,588 INFO [api-gateway] GET /api/products/5452 200 102ms
+2026-03-14 10:24:18,791 INFO [inventory-service] Added item 888 to cart 1189
+2026-03-14 10:24:22,391 INFO [auth-service] Search query completed in 45ms (111 results)
+2026-03-14 10:24:31,955 DEBUG [payment-service] Request context loaded in 1ms
+2026-03-14 10:24:38,264 INFO [payment-service] Order 58663 placed successfully
+2026-03-14 10:24:44,384 INFO [auth-service] Search query completed in 40ms (140 results)
+2026-03-14 10:24:48,363 INFO [auth-service] Cache hit ratio 81%
+2026-03-14 10:24:50,723 INFO [cart-service] Cache hit ratio 98%
+2026-03-14 10:24:52,719 INFO [api-gateway] User 87172 logged in
+2026-03-14 10:24:55,462 INFO [search-service] Order 98269 placed successfully
+2026-03-14 10:25:05,005 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:25:14,750 INFO [api-gateway] Search query completed in 13ms (176 results)
+2026-03-14 10:25:17,602 INFO [api-gateway] GET /api/products/7302 200 46ms
+2026-03-14 10:25:20,323 INFO [cart-service] Health check passed
+2026-03-14 10:25:21,581 INFO [search-service] Search query completed in 84ms (67 results)
+2026-03-14 10:25:23,524 INFO [cart-service] Added item 505 to cart 4303
+2026-03-14 10:25:30,640 INFO [payment-service] Added item 661 to cart 7924
+2026-03-14 10:25:40,343 INFO [auth-service] Cache hit ratio 83%
+2026-03-14 10:25:42,750 INFO [inventory-service] Added item 891 to cart 5119
+2026-03-14 10:25:52,022 INFO [cart-service] Added item 694 to cart 5407
+2026-03-14 10:25:55,573 INFO [inventory-service] User 46282 logged in
+2026-03-14 10:26:02,856 WARN [inventory-service] Slow response from inventory DB: 956ms
+2026-03-14 10:26:03,965 INFO [cart-service] Cache hit ratio 98%
+2026-03-14 10:26:08,030 INFO [inventory-service] Health check passed
+2026-03-14 10:26:12,406 DEBUG [inventory-service] Request context loaded in 2ms
+2026-03-14 10:26:17,911 ERROR [cart-service] Database connection refused: 10.0.3.22:5432
+2026-03-14 10:26:19,107 INFO [cart-service] Added item 512 to cart 7487
+2026-03-14 10:26:23,363 INFO [api-gateway] Order 43985 placed successfully
+2026-03-14 10:26:25,132 INFO [cart-service] Order 82320 placed successfully
+2026-03-14 10:26:26,477 INFO [cart-service] Health check passed
+2026-03-14 10:26:28,940 DEBUG [search-service] Request context loaded in 1ms
+2026-03-14 10:26:38,937 INFO [cart-service] Search query completed in 80ms (92 results)
+2026-03-14 10:26:42,386 INFO [payment-service] GET /api/products/4302 200 32ms
+2026-03-14 10:26:45,953 INFO [search-service] Order 85840 placed successfully
+2026-03-14 10:26:49,382 INFO [cart-service] Search query completed in 36ms (106 results)
+2026-03-14 10:26:52,686 INFO [inventory-service] Added item 995 to cart 3676
+2026-03-14 10:27:02,145 INFO [inventory-service] GET /api/products/6520 200 39ms
+2026-03-14 10:27:03,463 INFO [inventory-service] GET /api/products/4260 200 89ms
+2026-03-14 10:27:05,488 INFO [cart-service] Health check passed
+2026-03-14 10:27:14,111 WARN [auth-service] Slow response from inventory DB: 2076ms
+2026-03-14 10:27:15,893 INFO [payment-service] Health check passed
+2026-03-14 10:27:23,043 INFO [payment-service] Added item 191 to cart 1643
+2026-03-14 10:27:30,540 INFO [inventory-service] Health check passed
+2026-03-14 10:27:37,724 DEBUG [cart-service] Request context loaded in 3ms
+2026-03-14 10:27:40,762 INFO [inventory-service] Search query completed in 71ms (24 results)
+2026-03-14 10:27:46,895 INFO [api-gateway] User 50369 logged in
+2026-03-14 10:27:56,823 ERROR [search-service] Failed to reserve stock for SKU 239290: insufficient quantity
+2026-03-14 10:28:04,033 INFO [inventory-service] User 94133 logged in
+2026-03-14 10:28:10,617 INFO [payment-service] Order 85036 placed successfully
+2026-03-14 10:28:16,809 INFO [cart-service] Health check passed
+2026-03-14 10:28:22,793 WARN [payment-service] Slow response from inventory DB: 943ms
+2026-03-14 10:28:27,969 INFO [auth-service] GET /api/products/8275 200 85ms
+2026-03-14 10:28:30,200 INFO [auth-service] Cache hit ratio 97%
+2026-03-14 10:28:39,761 ERROR [api-gateway] Failed to reserve stock for SKU 421205: insufficient quantity
+2026-03-14 10:28:43,305 ERROR [cart-service] Timeout after 3000ms calling payment provider for order 32934
+2026-03-14 10:28:52,256 INFO [inventory-service] Cache hit ratio 81%
+2026-03-14 10:29:00,069 INFO [api-gateway] Order 11679 placed successfully
+2026-03-14 10:29:02,936 INFO [auth-service] GET /api/products/5266 200 75ms
+2026-03-14 10:29:10,792 INFO [cart-service] Health check passed
+2026-03-14 10:29:19,551 INFO [inventory-service] Order 27142 placed successfully
+2026-03-14 10:29:29,486 INFO [auth-service] Cache hit ratio 92%
+2026-03-14 10:29:30,715 INFO [auth-service] Search query completed in 92ms (94 results)
+2026-03-14 10:29:37,621 INFO [inventory-service] GET /api/products/5701 200 53ms
+2026-03-14 10:29:43,490 WARN [search-service] Connection pool at 92% capacity
+2026-03-14 10:29:53,453 INFO [cart-service] Health check passed
+2026-03-14 10:29:55,723 INFO [payment-service] Health check passed
+2026-03-14 10:29:56,874 INFO [api-gateway] Cache hit ratio 98%
+2026-03-14 10:30:03,918 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:30:06,266 WARN [search-service] Connection pool at 86% capacity
+2026-03-14 10:30:14,059 INFO [auth-service] User 26167 logged in
+2026-03-14 10:30:22,113 INFO [auth-service] Health check passed
+2026-03-14 10:30:30,228 INFO [payment-service] Cache hit ratio 98%
+2026-03-14 10:30:39,849 WARN [auth-service] Slow response from inventory DB: 1520ms
+2026-03-14 10:30:47,506 INFO [cart-service] Search query completed in 41ms (60 results)
+2026-03-14 10:30:52,213 WARN [api-gateway] Slow response from inventory DB: 1634ms
+2026-03-14 10:30:53,413 INFO [search-service] User 11330 logged in
+2026-03-14 10:30:57,652 INFO [inventory-service] Added item 512 to cart 7864
+2026-03-14 10:31:07,278 ERROR [search-service] Failed to reserve stock for SKU 580771: insufficient quantity
+2026-03-14 10:31:17,007 ERROR [api-gateway] Failed to reserve stock for SKU 509931: insufficient quantity
+2026-03-14 10:31:25,407 INFO [inventory-service] Cache hit ratio 91%
+2026-03-14 10:31:30,608 INFO [inventory-service] GET /api/products/3587 200 141ms
+2026-03-14 10:31:32,555 INFO [search-service] Order 47225 placed successfully
+2026-03-14 10:31:37,807 INFO [api-gateway] Search query completed in 23ms (31 results)
+2026-03-14 10:31:46,523 INFO [api-gateway] Order 32304 placed successfully
+2026-03-14 10:31:56,377 INFO [payment-service] Added item 677 to cart 8977
+2026-03-14 10:31:57,935 INFO [api-gateway] Order 74807 placed successfully
+2026-03-14 10:32:00,156 INFO [cart-service] Order 34059 placed successfully
+2026-03-14 10:32:05,426 INFO [search-service] Cache hit ratio 81%
+2026-03-14 10:32:08,561 INFO [inventory-service] Order 74673 placed successfully
+2026-03-14 10:32:11,196 INFO [search-service] GET /api/products/6372 200 167ms
+2026-03-14 10:32:19,595 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:32:20,640 INFO [payment-service] Search query completed in 12ms (119 results)
+2026-03-14 10:32:25,195 DEBUG [payment-service] Request context loaded in 2ms
+2026-03-14 10:32:32,247 INFO [inventory-service] Added item 815 to cart 805
+2026-03-14 10:32:41,490 INFO [cart-service] Search query completed in 92ms (51 results)
+2026-03-14 10:32:47,845 INFO [auth-service] Health check passed
+2026-03-14 10:32:52,463 WARN [auth-service] Slow response from inventory DB: 1384ms
+2026-03-14 10:32:55,279 INFO [api-gateway] Health check passed
+2026-03-14 10:33:04,444 INFO [api-gateway] Cache hit ratio 96%
+2026-03-14 10:33:07,035 INFO [auth-service] GET /api/products/4673 200 44ms
+2026-03-14 10:33:10,783 INFO [search-service] GET /api/products/5432 200 68ms
+2026-03-14 10:33:12,133 INFO [auth-service] Added item 455 to cart 429
+2026-03-14 10:33:16,474 INFO [cart-service] Health check passed
+2026-03-14 10:33:20,376 WARN [cart-service] Connection pool at 87% capacity
+2026-03-14 10:33:25,165 INFO [cart-service] GET /api/products/7566 200 45ms
+2026-03-14 10:33:28,339 INFO [inventory-service] User 94146 logged in
+2026-03-14 10:33:34,509 WARN [inventory-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:33:41,529 ERROR [api-gateway] Timeout after 5000ms calling payment provider for order 78447
+2026-03-14 10:33:48,996 INFO [auth-service] Search query completed in 76ms (126 results)
+2026-03-14 10:33:50,982 INFO [inventory-service] GET /api/products/3810 200 179ms
+2026-03-14 10:33:56,365 INFO [cart-service] Added item 649 to cart 2254
+2026-03-14 10:34:03,983 INFO [payment-service] GET /api/products/5081 200 53ms
+2026-03-14 10:34:10,672 INFO [inventory-service] GET /api/products/9648 200 54ms
+2026-03-14 10:34:18,868 INFO [payment-service] Added item 150 to cart 5965
+2026-03-14 10:34:23,593 INFO [auth-service] Health check passed
+2026-03-14 10:34:31,940 INFO [inventory-service] Order 25000 placed successfully
+2026-03-14 10:34:33,836 INFO [api-gateway] Search query completed in 95ms (54 results)
+2026-03-14 10:34:41,508 INFO [api-gateway] Search query completed in 37ms (154 results)
+2026-03-14 10:34:42,546 INFO [payment-service] Order 65265 placed successfully
+2026-03-14 10:34:44,450 INFO [search-service] Cache hit ratio 87%
+2026-03-14 10:34:51,555 INFO [inventory-service] Order 46481 placed successfully
+2026-03-14 10:35:00,045 INFO [auth-service] Health check passed
+2026-03-14 10:35:01,418 INFO [payment-service] Cache hit ratio 89%
+2026-03-14 10:35:04,891 INFO [search-service] Added item 758 to cart 5824
+2026-03-14 10:35:13,764 INFO [search-service] User 71268 logged in
+2026-03-14 10:35:23,650 ERROR [api-gateway] Failed to reserve stock for SKU 588614: insufficient quantity
+2026-03-14 10:35:32,361 WARN [inventory-service] Slow response from inventory DB: 2181ms
+2026-03-14 10:35:33,458 INFO [cart-service] Added item 106 to cart 8174
+2026-03-14 10:35:37,553 INFO [payment-service] Health check passed
+2026-03-14 10:35:47,096 WARN [auth-service] Connection pool at 91% capacity
+2026-03-14 10:35:56,650 INFO [payment-service] Search query completed in 52ms (142 results)
+2026-03-14 10:36:04,359 DEBUG [inventory-service] Request context loaded in 3ms
+2026-03-14 10:36:11,862 WARN [search-service] Retrying request to payment provider (attempt 1)
+2026-03-14 10:36:14,076 INFO [inventory-service] Cache hit ratio 86%
+2026-03-14 10:36:21,757 INFO [search-service] Health check passed
+2026-03-14 10:36:26,812 INFO [inventory-service] User 30692 logged in
+2026-03-14 10:36:33,522 INFO [payment-service] Cache hit ratio 90%
+2026-03-14 10:36:39,786 INFO [api-gateway] Added item 445 to cart 8808
+2026-03-14 10:36:47,499 INFO [cart-service] Cache hit ratio 88%
+2026-03-14 10:36:49,124 INFO [api-gateway] User 11723 logged in
+2026-03-14 10:36:55,755 INFO [api-gateway] User 85943 logged in
+2026-03-14 10:37:03,416 DEBUG [api-gateway] Request context loaded in 1ms
+2026-03-14 10:37:05,078 INFO [inventory-service] Order 61059 placed successfully
+2026-03-14 10:37:14,401 INFO [auth-service] Order 47817 placed successfully
+2026-03-14 10:37:17,448 INFO [inventory-service] Health check passed
+2026-03-14 10:37:23,204 INFO [api-gateway] GET /api/products/1980 200 170ms
+2026-03-14 10:37:32,236 INFO [auth-service] Search query completed in 91ms (40 results)
+2026-03-14 10:37:39,364 INFO [search-service] User 73079 logged in
+2026-03-14 10:37:45,843 INFO [payment-service] Search query completed in 63ms (57 results)
+2026-03-14 10:37:52,188 INFO [api-gateway] Order 95151 placed successfully
+2026-03-14 10:37:59,165 INFO [api-gateway] Added item 975 to cart 1129
+2026-03-14 10:38:04,253 INFO [search-service] GET /api/products/6790 200 41ms
+2026-03-14 10:38:10,904 INFO [payment-service] Added item 614 to cart 5036
+2026-03-14 10:38:16,658 INFO [inventory-service] Added item 711 to cart 1687
+2026-03-14 10:38:21,398 INFO [payment-service] Order 70638 placed successfully
+2026-03-14 10:38:26,104 INFO [cart-service] Order 28041 placed successfully
+2026-03-14 10:38:30,676 INFO [api-gateway] User 69379 logged in
+2026-03-14 10:38:37,176 INFO [payment-service] Added item 131 to cart 1977
+2026-03-14 10:38:42,662 INFO [cart-service] Order 78008 placed successfully
+2026-03-14 10:38:48,199 INFO [api-gateway] Added item 227 to cart 8848
+2026-03-14 10:38:50,536 INFO [api-gateway] GET /api/products/9390 200 104ms
+2026-03-14 10:38:52,191 INFO [auth-service] Search query completed in 59ms (171 results)
+2026-03-14 10:39:01,980 ERROR [api-gateway] Timeout after 5000ms calling payment provider for order 30907
+2026-03-14 10:39:10,726 INFO [payment-service] Cache hit ratio 98%
+2026-03-14 10:39:14,597 INFO [cart-service] GET /api/products/7478 200 180ms
+2026-03-14 10:39:21,616 INFO [payment-service] Cache hit ratio 97%
+2026-03-14 10:39:28,382 WARN [auth-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:39:32,133 INFO [api-gateway] Added item 847 to cart 2511
+2026-03-14 10:39:33,801 INFO [search-service] Search query completed in 92ms (146 results)
+2026-03-14 10:39:38,063 INFO [inventory-service] GET /api/products/3389 200 169ms
+2026-03-14 10:39:45,848 INFO [auth-service] Order 25267 placed successfully
+2026-03-14 10:39:47,340 INFO [cart-service] Added item 819 to cart 427
+2026-03-14 10:39:56,889 INFO [search-service] Cache hit ratio 98%
+2026-03-14 10:40:06,586 WARN [api-gateway] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:40:15,039 INFO [api-gateway] Order 47949 placed successfully
+2026-03-14 10:40:24,495 INFO [api-gateway] Order 44181 placed successfully
+2026-03-14 10:40:27,009 INFO [inventory-service] Health check passed
+2026-03-14 10:40:30,001 INFO [auth-service] GET /api/products/8544 200 44ms
+2026-03-14 10:40:33,178 WARN [api-gateway] Retrying request to payment provider (attempt 3)
+2026-03-14 10:40:41,288 INFO [auth-service] Order 38491 placed successfully
+2026-03-14 10:40:48,659 INFO [search-service] Cache hit ratio 86%
+2026-03-14 10:40:50,431 INFO [inventory-service] Added item 695 to cart 6461
+2026-03-14 10:40:56,184 INFO [cart-service] Health check passed
+2026-03-14 10:41:02,309 INFO [search-service] Order 23689 placed successfully
+2026-03-14 10:41:03,754 WARN [api-gateway] Slow response from inventory DB: 1647ms
+2026-03-14 10:41:12,990 INFO [api-gateway] Search query completed in 96ms (84 results)
+2026-03-14 10:41:17,078 INFO [api-gateway] Cache hit ratio 87%
+2026-03-14 10:41:18,545 INFO [api-gateway] Added item 983 to cart 1593
+2026-03-14 10:41:20,562 INFO [inventory-service] Health check passed
+2026-03-14 10:41:23,681 INFO [inventory-service] Health check passed
+2026-03-14 10:41:32,350 INFO [auth-service] Health check passed
+2026-03-14 10:41:38,815 INFO [auth-service] Health check passed
+2026-03-14 10:41:43,313 ERROR [cart-service] Database connection refused: 10.0.3.52:5432
+2026-03-14 10:41:44,893 ERROR [payment-service] JWT validation failed: token expired
+2026-03-14 10:41:46,607 INFO [api-gateway] GET /api/products/5761 200 163ms
+2026-03-14 10:41:56,552 INFO [auth-service] User 95521 logged in
+2026-03-14 10:41:57,588 INFO [payment-service] GET /api/products/6689 200 66ms
+2026-03-14 10:42:01,783 INFO [search-service] User 27742 logged in
+2026-03-14 10:42:03,020 INFO [inventory-service] Order 76306 placed successfully
+2026-03-14 10:42:05,579 INFO [api-gateway] User 92876 logged in
+2026-03-14 10:42:10,101 INFO [search-service] Health check passed
+2026-03-14 10:42:17,182 INFO [payment-service] Search query completed in 92ms (103 results)
+2026-03-14 10:42:23,053 DEBUG [api-gateway] Request context loaded in 5ms
+2026-03-14 10:42:25,556 INFO [auth-service] Cache hit ratio 90%
+2026-03-14 10:42:31,002 DEBUG [api-gateway] Request context loaded in 1ms
+2026-03-14 10:42:37,557 ERROR [inventory-service] Timeout after 5000ms calling payment provider for order 10716
+2026-03-14 10:42:47,464 INFO [api-gateway] Added item 276 to cart 3317
+2026-03-14 10:42:55,380 INFO [cart-service] Cache hit ratio 95%
+2026-03-14 10:43:04,203 INFO [search-service] Search query completed in 86ms (87 results)
+2026-03-14 10:43:10,522 INFO [auth-service] Added item 295 to cart 2732
+2026-03-14 10:43:15,843 INFO [payment-service] Order 87457 placed successfully
+2026-03-14 10:43:20,400 INFO [api-gateway] Cache hit ratio 97%
+2026-03-14 10:43:27,423 INFO [search-service] Health check passed
+2026-03-14 10:43:32,336 INFO [inventory-service] Search query completed in 65ms (50 results)
+2026-03-14 10:43:37,694 INFO [api-gateway] Cache hit ratio 83%
+2026-03-14 10:43:46,760 INFO [inventory-service] Health check passed
+2026-03-14 10:43:55,843 INFO [payment-service] Order 31692 placed successfully
+2026-03-14 10:43:58,771 INFO [payment-service] Cache hit ratio 96%
+2026-03-14 10:44:06,534 INFO [api-gateway] GET /api/products/3704 200 131ms
+2026-03-14 10:44:13,372 WARN [api-gateway] Retrying request to payment provider (attempt 2)
+2026-03-14 10:44:14,582 DEBUG [cart-service] Request context loaded in 5ms
+2026-03-14 10:44:23,784 ERROR [api-gateway] Timeout after 3000ms calling payment provider for order 80545
+2026-03-14 10:44:27,043 INFO [auth-service] User 53894 logged in
+2026-03-14 10:44:31,370 WARN [payment-service] Connection pool at 92% capacity
+2026-03-14 10:44:34,230 INFO [cart-service] Order 82839 placed successfully
+2026-03-14 10:44:39,242 DEBUG [search-service] Request context loaded in 1ms
+2026-03-14 10:44:41,982 INFO [api-gateway] Search query completed in 55ms (194 results)
+2026-03-14 10:44:50,592 INFO [auth-service] Order 69883 placed successfully
+2026-03-14 10:44:56,752 DEBUG [search-service] Request context loaded in 3ms
+2026-03-14 10:45:06,621 INFO [inventory-service] GET /api/products/3405 200 135ms
+2026-03-14 10:45:11,605 INFO [inventory-service] Order 26981 placed successfully
+2026-03-14 10:45:13,729 INFO [search-service] Cache hit ratio 84%
+2026-03-14 10:45:19,777 INFO [auth-service] Health check passed
+2026-03-14 10:45:24,400 INFO [auth-service] Search query completed in 63ms (48 results)
+2026-03-14 10:45:25,611 INFO [inventory-service] Added item 687 to cart 6207
+2026-03-14 10:45:34,728 INFO [api-gateway] Added item 341 to cart 8384
+2026-03-14 10:45:44,227 INFO [search-service] Added item 115 to cart 3472
+2026-03-14 10:45:48,094 INFO [api-gateway] Added item 180 to cart 578
+2026-03-14 10:45:55,988 INFO [inventory-service] Added item 307 to cart 2171
+2026-03-14 10:45:58,214 DEBUG [auth-service] Request context loaded in 1ms
+2026-03-14 10:46:02,366 DEBUG [cart-service] Request context loaded in 2ms
+2026-03-14 10:46:04,047 INFO [payment-service] GET /api/products/6932 200 142ms
+2026-03-14 10:46:13,045 INFO [search-service] Health check passed
+2026-03-14 10:46:17,684 ERROR [auth-service] Database connection refused: 10.0.3.42:5432
+2026-03-14 10:46:23,133 INFO [api-gateway] Search query completed in 19ms (45 results)
+2026-03-14 10:46:24,360 INFO [payment-service] GET /api/products/3852 200 184ms
+2026-03-14 10:46:29,222 DEBUG [auth-service] Request context loaded in 1ms
+2026-03-14 10:46:30,840 INFO [search-service] Added item 278 to cart 2221
+2026-03-14 10:46:39,298 INFO [api-gateway] User 62409 logged in
+2026-03-14 10:46:44,217 ERROR [api-gateway] Failed to reserve stock for SKU 531067: insufficient quantity
+2026-03-14 10:46:53,273 INFO [api-gateway] User 30287 logged in
+2026-03-14 10:46:56,108 INFO [cart-service] Added item 910 to cart 6983
+2026-03-14 10:46:57,897 DEBUG [cart-service] Request context loaded in 5ms
+2026-03-14 10:47:07,314 INFO [api-gateway] Search query completed in 29ms (159 results)
+2026-03-14 10:47:08,701 INFO [auth-service] User 87696 logged in
+2026-03-14 10:47:18,175 INFO [search-service] User 56195 logged in
+2026-03-14 10:47:21,730 INFO [inventory-service] Search query completed in 95ms (55 results)
+2026-03-14 10:47:31,452 INFO [payment-service] Cache hit ratio 92%
+2026-03-14 10:47:37,431 INFO [cart-service] GET /api/products/9825 200 94ms
+2026-03-14 10:47:42,367 INFO [inventory-service] Search query completed in 85ms (52 results)
+2026-03-14 10:47:46,256 INFO [payment-service] Added item 170 to cart 5916
+2026-03-14 10:47:56,127 INFO [payment-service] Order 66216 placed successfully
+2026-03-14 10:48:05,273 INFO [payment-service] Search query completed in 18ms (186 results)
+2026-03-14 10:48:12,467 INFO [payment-service] Search query completed in 46ms (104 results)
+2026-03-14 10:48:20,547 INFO [inventory-service] Health check passed
+2026-03-14 10:48:24,790 INFO [cart-service] Added item 390 to cart 6795
+2026-03-14 10:48:28,697 INFO [cart-service] GET /api/products/9172 200 124ms
+2026-03-14 10:48:36,677 INFO [inventory-service] GET /api/products/5463 200 85ms
+2026-03-14 10:48:46,439 INFO [cart-service] Search query completed in 87ms (125 results)
+2026-03-14 10:48:54,324 INFO [inventory-service] Health check passed
+2026-03-14 10:49:04,020 INFO [inventory-service] Cache hit ratio 93%
+2026-03-14 10:49:13,800 INFO [auth-service] Health check passed
+2026-03-14 10:49:21,790 INFO [auth-service] Search query completed in 93ms (184 results)
+2026-03-14 10:49:30,651 INFO [payment-service] Health check passed
+2026-03-14 10:49:38,340 WARN [search-service] Retrying request to payment provider (attempt 3)
+2026-03-14 10:49:45,490 INFO [search-service] Search query completed in 47ms (33 results)
+2026-03-14 10:49:53,426 INFO [inventory-service] Health check passed
+2026-03-14 10:49:59,076 INFO [cart-service] GET /api/products/5468 200 170ms
+2026-03-14 10:50:05,930 INFO [search-service] Health check passed
+2026-03-14 10:50:11,519 INFO [inventory-service] Search query completed in 33ms (26 results)
+2026-03-14 10:50:20,797 INFO [api-gateway] GET /api/products/1654 200 68ms
+2026-03-14 10:50:24,514 INFO [payment-service] User 40161 logged in
+2026-03-14 10:50:25,870 INFO [payment-service] Health check passed
+2026-03-14 10:50:27,068 INFO [api-gateway] Added item 691 to cart 4434
+2026-03-14 10:50:36,715 INFO [inventory-service] Added item 589 to cart 4896
+2026-03-14 10:50:42,265 INFO [payment-service] Search query completed in 12ms (173 results)
+2026-03-14 10:50:50,035 INFO [inventory-service] User 28981 logged in
+2026-03-14 10:50:56,187 INFO [payment-service] User 77954 logged in
+2026-03-14 10:51:02,559 INFO [inventory-service] Order 59830 placed successfully
+2026-03-14 10:51:07,303 ERROR [auth-service] JWT validation failed: token expired
+2026-03-14 10:51:15,869 INFO [cart-service] GET /api/products/2243 200 156ms
+2026-03-14 10:51:20,152 INFO [auth-service] Order 93040 placed successfully
+2026-03-14 10:51:24,807 INFO [auth-service] User 43813 logged in
+2026-03-14 10:51:25,981 INFO [api-gateway] User 55068 logged in
+2026-03-14 10:51:29,128 INFO [auth-service] Cache hit ratio 91%
+2026-03-14 10:51:34,928 INFO [cart-service] Order 49187 placed successfully
+2026-03-14 10:51:37,377 DEBUG [cart-service] Request context loaded in 1ms
+2026-03-14 10:51:41,087 INFO [api-gateway] GET /api/products/5084 200 161ms
+2026-03-14 10:51:43,227 INFO [payment-service] Order 46208 placed successfully
+2026-03-14 10:51:52,646 INFO [api-gateway] Order 63912 placed successfully
+2026-03-14 10:52:00,611 INFO [auth-service] Added item 127 to cart 920
+2026-03-14 10:52:08,069 INFO [cart-service] Order 85715 placed successfully
+2026-03-14 10:52:15,155 DEBUG [auth-service] Request context loaded in 5ms
+2026-03-14 10:52:19,002 INFO [cart-service] Search query completed in 51ms (69 results)
+2026-03-14 10:52:27,269 INFO [auth-service] Cache hit ratio 87%
+2026-03-14 10:52:30,987 INFO [cart-service] Health check passed
+2026-03-14 10:52:39,463 WARN [cart-service] Slow response from inventory DB: 1823ms
+2026-03-14 10:52:41,686 INFO [search-service] Added item 725 to cart 1674
+2026-03-14 10:52:44,009 INFO [cart-service] GET /api/products/6958 200 78ms
+2026-03-14 10:52:45,157 INFO [auth-service] Cache hit ratio 88%
+2026-03-14 10:52:52,040 WARN [search-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:52:53,947 INFO [inventory-service] Added item 611 to cart 7674
+2026-03-14 10:53:02,769 INFO [api-gateway] Cache hit ratio 97%
+2026-03-14 10:53:12,240 INFO [cart-service] GET /api/products/8726 200 185ms
+2026-03-14 10:53:19,598 INFO [auth-service] Search query completed in 52ms (195 results)
+2026-03-14 10:53:22,494 INFO [payment-service] Cache hit ratio 90%
+2026-03-14 10:53:28,742 DEBUG [auth-service] Request context loaded in 2ms
+2026-03-14 10:53:36,585 ERROR [api-gateway] Failed to reserve stock for SKU 449239: insufficient quantity
+2026-03-14 10:53:44,672 DEBUG [auth-service] Request context loaded in 2ms
+2026-03-14 10:53:50,240 INFO [auth-service] Cache hit ratio 98%
+2026-03-14 10:53:53,323 INFO [auth-service] Cache hit ratio 89%
+2026-03-14 10:53:57,761 INFO [payment-service] Cache hit ratio 82%
+2026-03-14 10:54:01,885 INFO [auth-service] Health check passed
+2026-03-14 10:54:05,034 INFO [inventory-service] User 79709 logged in
+2026-03-14 10:54:12,418 INFO [auth-service] User 43066 logged in
+2026-03-14 10:54:14,079 INFO [cart-service] User 23904 logged in
+2026-03-14 10:54:22,965 INFO [cart-service] Search query completed in 45ms (133 results)
+2026-03-14 10:54:27,180 INFO [cart-service] Health check passed
+2026-03-14 10:54:36,548 INFO [auth-service] User 48300 logged in
+2026-03-14 10:54:44,248 INFO [payment-service] GET /api/products/8718 200 155ms
+2026-03-14 10:54:46,494 INFO [api-gateway] Search query completed in 91ms (79 results)
+2026-03-14 10:54:48,279 DEBUG [search-service] Request context loaded in 5ms
+2026-03-14 10:54:54,945 INFO [inventory-service] Health check passed
+2026-03-14 10:54:57,215 INFO [auth-service] User 53642 logged in
+2026-03-14 10:55:02,319 INFO [inventory-service] Search query completed in 30ms (178 results)
+2026-03-14 10:55:08,841 INFO [inventory-service] Order 78427 placed successfully
+2026-03-14 10:55:10,792 INFO [search-service] GET /api/products/5134 200 80ms
+2026-03-14 10:55:16,667 INFO [payment-service] Order 69030 placed successfully
+2026-03-14 10:55:19,674 INFO [payment-service] GET /api/products/2147 200 183ms
+2026-03-14 10:55:24,696 INFO [payment-service] Order 96693 placed successfully
+2026-03-14 10:55:30,111 ERROR [payment-service] JWT validation failed: token expired
+2026-03-14 10:55:31,617 WARN [auth-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:55:41,168 INFO [auth-service] User 63967 logged in
+2026-03-14 10:55:45,421 INFO [search-service] Health check passed
+2026-03-14 10:55:50,397 DEBUG [cart-service] Request context loaded in 3ms
+2026-03-14 10:55:57,387 DEBUG [payment-service] Request context loaded in 1ms
+2026-03-14 10:56:00,022 WARN [search-service] Slow response from inventory DB: 1562ms
+2026-03-14 10:56:01,542 WARN [auth-service] Slow response from inventory DB: 1888ms
+2026-03-14 10:56:05,253 INFO [search-service] Order 42875 placed successfully
+2026-03-14 10:56:09,406 INFO [cart-service] User 45147 logged in
+2026-03-14 10:56:13,725 DEBUG [api-gateway] Request context loaded in 2ms
+2026-03-14 10:56:18,833 DEBUG [payment-service] Request context loaded in 3ms
+2026-03-14 10:56:27,206 INFO [payment-service] Search query completed in 43ms (95 results)
+2026-03-14 10:56:35,183 WARN [inventory-service] Connection pool at 81% capacity
+2026-03-14 10:56:44,128 INFO [auth-service] Health check passed
+2026-03-14 10:56:46,377 INFO [payment-service] Order 41469 placed successfully
+2026-03-14 10:56:51,197 INFO [api-gateway] Cache hit ratio 99%
+2026-03-14 10:57:01,173 INFO [search-service] Cache hit ratio 83%
+2026-03-14 10:57:03,649 INFO [payment-service] Added item 424 to cart 2170
+2026-03-14 10:57:10,368 INFO [auth-service] Order 78575 placed successfully
+2026-03-14 10:57:12,522 WARN [search-service] Slow response from inventory DB: 1234ms
+2026-03-14 10:57:19,251 INFO [inventory-service] User 59364 logged in
+2026-03-14 10:57:23,800 INFO [search-service] GET /api/products/8934 200 191ms
+2026-03-14 10:57:25,291 INFO [search-service] GET /api/products/6728 200 149ms
+2026-03-14 10:57:29,870 INFO [search-service] Health check passed
+2026-03-14 10:57:36,392 INFO [payment-service] Added item 502 to cart 1267
+2026-03-14 10:57:38,452 WARN [inventory-service] Slow response from inventory DB: 1150ms
+2026-03-14 10:57:45,675 INFO [inventory-service] Search query completed in 11ms (164 results)
+2026-03-14 10:57:53,946 INFO [auth-service] GET /api/products/9046 200 23ms
+2026-03-14 10:57:56,167 INFO [api-gateway] GET /api/products/4016 200 57ms
+2026-03-14 10:58:04,041 WARN [api-gateway] Connection pool at 81% capacity
+2026-03-14 10:58:09,996 INFO [api-gateway] GET /api/products/8959 200 62ms
+2026-03-14 10:58:17,130 INFO [auth-service] Health check passed
+2026-03-14 10:58:25,197 INFO [search-service] Health check passed
+2026-03-14 10:58:33,926 INFO [api-gateway] Added item 649 to cart 1962
+2026-03-14 10:58:37,826 INFO [payment-service] Search query completed in 20ms (45 results)
+2026-03-14 10:58:42,937 INFO [search-service] Order 26789 placed successfully
+2026-03-14 10:58:45,093 ERROR [cart-service] Database connection refused: 10.0.3.44:5432
+2026-03-14 10:58:50,509 INFO [api-gateway] User 87663 logged in
+2026-03-14 10:58:59,871 WARN [cart-service] Retrying request to payment provider (attempt 3)
+2026-03-14 10:59:06,491 INFO [auth-service] Health check passed
+2026-03-14 10:59:11,777 DEBUG [api-gateway] Request context loaded in 3ms
+2026-03-14 10:59:18,906 INFO [auth-service] Health check passed
+2026-03-14 10:59:20,970 INFO [search-service] Search query completed in 21ms (161 results)
+2026-03-14 10:59:25,629 INFO [cart-service] Cache hit ratio 95%
+2026-03-14 10:59:34,235 INFO [search-service] User 51659 logged in
+2026-03-14 10:59:41,796 WARN [inventory-service] Retrying request to payment provider (attempt 1)
+2026-03-14 10:59:46,887 WARN [payment-service] Deprecated API version v1 called by client mobile-ios
+2026-03-14 10:59:55,546 INFO [search-service] GET /api/products/9298 200 21ms

@@ -1,0 +1,100 @@
+{
+  "Comment": "LogLens pipeline: triggered by an S3 upload, parses the log, detects error spikes and saves results to DynamoDB.",
+  "StartAt": "ExtractJobId",
+  "States": {
+    "ExtractJobId": {
+      "Type": "Pass",
+      "Comment": "Turn the S3 EventBridge event into { jobId, bucket, key, size }. Keys look like uploads/<jobId>/<file>.",
+      "Parameters": {
+        "jobId.$": "States.ArrayGetItem(States.StringSplit($.detail.object.key, '/'), 1)",
+        "bucket.$": "$.detail.bucket.name",
+        "key.$": "$.detail.object.key",
+        "size.$": "$.detail.object.size"
+      },
+      "Next": "ParseLog"
+    },
+    "ParseLog": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ParseLogFunctionArn}",
+        "Payload.$": "$"
+      },
+      "OutputPath": "$.Payload",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.TooManyRequestsException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [{ "ErrorEquals": ["States.ALL"], "ResultPath": "$.error", "Next": "MarkFailed" }],
+      "Next": "DetectAnomalies"
+    },
+    "DetectAnomalies": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${DetectAnomaliesFunctionArn}",
+        "Payload.$": "$"
+      },
+      "OutputPath": "$.Payload",
+      "Retry": [
+        {
+          "ErrorEquals": ["Lambda.ServiceException", "Lambda.TooManyRequestsException", "Lambda.SdkClientException"],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [{ "ErrorEquals": ["States.ALL"], "ResultPath": "$.error", "Next": "MarkFailed" }],
+      "Next": "SaveResults"
+    },
+    "SaveResults": {
+      "Type": "Task",
+      "Comment": "Direct DynamoDB integration: no Lambda needed just to write a record.",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "${JobsTableName}",
+        "Key": {
+          "pk": { "S.$": "States.Format('JOB#{}', $.jobId)" },
+          "sk": { "S": "META" }
+        },
+        "UpdateExpression": "SET #status = :status, summary = :summary, anomalyCount = :anomalyCount, resultKey = :resultKey, completedAt = :completedAt",
+        "ExpressionAttributeNames": { "#status": "status" },
+        "ExpressionAttributeValues": {
+          ":status": { "S": "COMPLETE" },
+          ":summary": { "S.$": "States.JsonToString($.summary)" },
+          ":anomalyCount": { "N.$": "States.Format('{}', $.anomalyCount)" },
+          ":resultKey": { "S.$": "$.resultKey" },
+          ":completedAt": { "S.$": "$$.State.EnteredTime" }
+        }
+      },
+      "End": true
+    },
+    "MarkFailed": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::dynamodb:updateItem",
+      "Parameters": {
+        "TableName": "${JobsTableName}",
+        "Key": {
+          "pk": { "S.$": "States.Format('JOB#{}', $.jobId)" },
+          "sk": { "S": "META" }
+        },
+        "UpdateExpression": "SET #status = :status, errorMessage = :error",
+        "ExpressionAttributeNames": { "#status": "status" },
+        "ExpressionAttributeValues": {
+          ":status": { "S": "FAILED" },
+          ":error": { "S.$": "$.error.Error" }
+        }
+      },
+      "Next": "PipelineFailed"
+    },
+    "PipelineFailed": {
+      "Type": "Fail",
+      "Error": "LogPipelineFailed",
+      "Cause": "A pipeline step failed. The job has been marked FAILED in DynamoDB."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+name: Deploy back end to AWS
+
+# Runs after CI on main, or manually. It does nothing until you set the
+# repository variable AWS_DEPLOY_ENABLED=true and the secret AWS_DEPLOY_ROLE_ARN
+# (an IAM role trusted for GitHub OIDC: no long-lived AWS keys in GitHub).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [backend/**, template.yaml, samconfig.toml]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    if: vars.AWS_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: aws-actions/setup-sam@v2
+        with:
+          use-installer: true
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION || 'ap-south-1' }}
+      - run: npm ci && npm test
+        working-directory: backend
+      - run: sam build
+      - run: >
+          sam deploy
+          --no-confirm-changeset
+          --no-fail-on-empty-changeset
+          --parameter-overrides AllowedOrigin=${{ vars.FRONTEND_ORIGIN || '*' }}
